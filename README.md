@@ -22,7 +22,7 @@ A 2D action-platformer / boss-fight prototype built with Unity (URP). The focus 
 ![Gameplay Demo 02](demo/Demo02.gif)
 
 **可运行版本 | Playable Build**  
-- Itch.io: `https://fr3derica.itch.io/great-nailsage-sly?secret=vM4aLKURztTBJMaxLRwbVUbsJw`
+- Itch.io: [Play Great Nailsage Sly](https://fr3derica.itch.io/great-nailsage-sly?secret=vM4aLKURztTBJMaxLRwbVUbsJw)
 
 ## 4) 技术亮点（系统设计） | Technical Highlights (System Design)
 
