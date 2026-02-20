@@ -18,13 +18,11 @@ A 2D action-platformer / boss-fight prototype built with Unity (URP). The focus 
 ## 3) Demo 展示 | Demo
 
 **GIF 预览 | GIF Preview**  
-> 请将下方路径替换为你的实际演示 GIF 路径。  
-> Replace the path below with your actual gameplay GIF.
-
-![Gameplay Demo](docs/demo.gif)
+![Gameplay Demo 01](demo/Demo01.gif)
+![Gameplay Demo 02](demo/Demo02.gif)
 
 **可运行版本 | Playable Build**  
-- Itch.io: `https://itch.io/`（替换为你的项目链接 / replace with your game link）
+- Itch.io: `https://fr3derica.itch.io/great-nailsage-sly?secret=vM4aLKURztTBJMaxLRwbVUbsJw`
 
 ## 4) 技术亮点（系统设计） | Technical Highlights (System Design)
 
