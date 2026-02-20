@@ -1,0 +1,6375 @@
+fileFormatVersion: 2
+guid: 8cb52cfe98058d34a9d416560a4b911d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lace_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3198
+        width: 137
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1135d35bd53ea14479c62233183198fd
+      internalID: -741700694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3102
+        width: 192
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f766ecf5349b5f84d95b7ff1f15d7582
+      internalID: -953459178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3027
+        width: 137
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bd7dd1ac7fa124da76c2e5f9707c26
+      internalID: -1346626702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3046
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb7447d1aa1f7d4789672926eee555b
+      internalID: 1774681247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 3181
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd53586a5b036a44bf7dc078776af7a
+      internalID: -659413887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2743
+        width: 299
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f970aa5deb6ef4a90b2bb3a0bd52a7
+      internalID: 1725878148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2955
+        width: 166
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb6a9b260a56734eb2d4973bacbf71f
+      internalID: 1785835201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2875
+        width: 175
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86c31b6399d601459d45e947908e9c3
+      internalID: 1628714162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2898
+        width: 191
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1cd226e49e34347bcf36558831f436
+      internalID: -506387485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2945
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c8b6a88d81a3b4e93155e076c7601e
+      internalID: 759469520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2785
+        width: 169
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a32b143560bb8d4c8d30d71a42e044d
+      internalID: 448551833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 2723
+        width: 173
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83eddbf8687020479ec17e4d1a1698c
+      internalID: -170097083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2741
+        width: 170
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d08b975e448e71438a37b5b2e2c86d3
+      internalID: -1960746856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_13
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 2746
+        width: 151
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecaf1b095eb52146a6c653043e62eda
+      internalID: 27413190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_14
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2693
+        width: 176
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4e6e37c52ab7e49b565c25ef21e5b6
+      internalID: 2056558734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_15
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 2705
+        width: 170
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100a209572f703d47af77a7dcd250a70
+      internalID: -735886563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_16
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 2687
+        width: 157
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe106fc669af3f489b901b1b091e042
+      internalID: 1496247102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_17
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 2675
+        width: 171
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd024a249aaa040b25aaf2fd6d6c9f
+      internalID: 1091610771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2646
+        width: 191
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70449c1283546c24cabe327be42ba906
+      internalID: -247062687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2646
+        width: 198
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3352293faac646af40793496949bd
+      internalID: 1314949916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_20
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2626
+        width: 179
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bd31f4776afaf4eb793ad300906914
+      internalID: -1159478857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_21
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2555
+        width: 351
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd21c0712978c01448c4f82f5574c5b3
+      internalID: 902953455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_22
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2573
+        width: 123
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a8f6c40d125e84b969b89877abb3c7
+      internalID: 1850985186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_23
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2342
+        width: 224
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4e3856a6fd6b84eaa4e945ef940825
+      internalID: -3674234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_24
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2529
+        width: 159
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498fce734dc9a934c8660d1e327fc4fb
+      internalID: -947076145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_25
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 2544
+        width: 175
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6257e2e3c869e4685979d530c5a2cc
+      internalID: -199618012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_26
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2530
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee392b241edf3c242833d676e8eab42d
+      internalID: -226937349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_27
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2552
+        width: 151
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07c592cd94deb840b43f6ac4a3808ad
+      internalID: 1489611191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_28
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 2568
+        width: 142
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8762c62c07ab44da0d727798946261
+      internalID: -1527713014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_29
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2560
+        width: 157
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0dd0e2ee60adc45961cfd032f45280
+      internalID: -921899056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_30
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2536
+        width: 151
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0afd05dde0c4740aadec54815b8407
+      internalID: -42361637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_31
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 2473
+        width: 235
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0147a333d009ccc498368851a6bc37bb
+      internalID: -1452274662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2355
+        width: 312
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1173704be2423174e98626e5a1f82362
+      internalID: -106402385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_33
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 2642
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761a2ac710b70b141bf147f1bb56dd6c
+      internalID: -1144621092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_34
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2520
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270a8119a08146749bedfa17e1cb7e15
+      internalID: 1178976955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 2371
+        width: 306
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d76923bdf2e694f9014b03f48ac872
+      internalID: -2120949323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_36
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2411
+        width: 197
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca037fee54e0abe4e8eee04c1d0e8157
+      internalID: -1424092674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_37
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2404
+        width: 172
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c841c1d86dbf746825b982d0b041ee
+      internalID: -1403545385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_38
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2358
+        width: 171
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d707183159872c74d9fab2a64fd59867
+      internalID: -1486833607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_39
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 2381
+        width: 172
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f18c5ca28a3ddc4aa2793fa72a94227
+      internalID: 499601594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_40
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2384
+        width: 175
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247df0daea75afa49ad0367adb861d67
+      internalID: 632116820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_41
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 2375
+        width: 139
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa55cde667b21d459c50af1e8aa8e41
+      internalID: -341092282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_42
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 2241
+        width: 174
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bf72f4300186641a9239be62421b88
+      internalID: 781571522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_43
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2428
+        width: 168
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441a4dd98769e784d808f7b3acfd966b
+      internalID: -1691821161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_44
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 2267
+        width: 171
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7778622c3afb44993f9c5b62554dea
+      internalID: -248775075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_45
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 2499
+        width: 166
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9731a9ad98e9f74591002a5433141bf
+      internalID: 334744950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_46
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 2488
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf0a936843c38b4cbc788dc7037132c
+      internalID: 1563970289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_47
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 2449
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b4aa420e2125849a1d0ebbd16c2c6b
+      internalID: -53259979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_48
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 2327
+        width: 114
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f7bd9780129d240b398210b4a6f6f6
+      internalID: 2020909733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_49
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 2404
+        width: 142
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3849a381b3c044bcf1a202e7bcf87
+      internalID: -1785707692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_50
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2345
+        width: 205
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8318bc6f845364aa223c7b38bf1e64
+      internalID: -282724958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_51
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2357
+        width: 166
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58074008a0ac24cbb1e719a3e46363
+      internalID: -2119740535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_52
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 2485
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083c552a92b56b546a7ca4a29dec9dc5
+      internalID: -1906134450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_53
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 2346
+        width: 157
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcaf22a57c4e094ba0abd97241b3ecf
+      internalID: -1571829700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_54
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 2346
+        width: 136
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e0ea2b0ef967a4bb86fe9f201eaeea
+      internalID: -559744985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_55
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 2325
+        width: 165
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27b872ad7f78f848b91fe884b42b09f
+      internalID: 1510219102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_56
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 2300
+        width: 155
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe999605d82dd4c428a4dce3d70a84a6
+      internalID: 71770809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_57
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 2433
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc45f4627cce2c74789fdffc4354ff22
+      internalID: 1517383831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_58
+      rect:
+        serializedVersion: 2
+        x: 3875
+        y: 2133
+        width: 175
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50236b769743431438eb60a39b924112
+      internalID: 1552005670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2198
+        width: 243
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a25d58ebf6c6d4aa34d1c2d5744870
+      internalID: -1051336394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_60
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2332
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4932190009b89948a392e7d6e9ccac1
+      internalID: 2039758409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_61
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2198
+        width: 239
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00647047b2a04164299d9a9484667e9d
+      internalID: -846452783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_62
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2268
+        width: 175
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60409b5eba347d748b32e157c4b38b31
+      internalID: 1398404105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_63
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 2205
+        width: 149
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a55ea7430121c448c17d6bf7cb4fb9
+      internalID: 1339768266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_64
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2148
+        width: 138
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aeedfde7c87d840bb32311f2cbdaf3
+      internalID: -423731376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_65
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 2196
+        width: 179
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384b19422a69c7f4b95400a5c6b33a09
+      internalID: 1091185534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_66
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2210
+        width: 172
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a4896912023e84c88bba48eaca0806
+      internalID: 1205535474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_67
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 2220
+        width: 169
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84e2d641a8c537449c46cc6e34f9099
+      internalID: 1461594637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_68
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 2194
+        width: 155
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b79859db5c31a46a5e70dd4d9f965f
+      internalID: 368315489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_69
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 2281
+        width: 158
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b1cb9e90cbb7b47802a09642284cb6
+      internalID: 2099120493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_70
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2221
+        width: 176
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00481e27dd7c2364085fb039b12364c9
+      internalID: -738467202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_71
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 2198
+        width: 156
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b126d5540d545ff439db2eb06aa1fd7a
+      internalID: -166805450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_72
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 2026
+        width: 269
+        height: 354
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6388dedf96ccc449a175e0b1ce820c0
+      internalID: -700007695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_73
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 2137
+        width: 138
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4ca49f783b25d4c801cc0d9875819b
+      internalID: -1387251713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_74
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2201
+        width: 235
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118fad50b63124b488300e9608d463b5
+      internalID: 1280358206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_75
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 2260
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581f3cd05f6fac34b9fdb0b92cc31a28
+      internalID: -723961871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_76
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1900
+        width: 145
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2450c6984bed7543a5e5ab46dd30529
+      internalID: 581277111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_77
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 2180
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bbec543f7bf5d46851c9285c834061
+      internalID: -873564282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_78
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 2166
+        width: 166
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f95753be1cd9f49bce18779fa22ffa
+      internalID: -1778408626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_79
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 2132
+        width: 32
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7427682ec0775f41a88634004df9123
+      internalID: 1893529557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_80
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2112
+        width: 32
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d120f608378529648b411054b9830092
+      internalID: -1566904087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_81
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 2117
+        width: 40
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443e957612dce1441b4bac7c08274e75
+      internalID: -1703874976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_82
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 2171
+        width: 70
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950568b2cda20244eaf5a0f23a87d1a4
+      internalID: -1735709428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2008
+        width: 254
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb935936880145148adea9f49ab175b2
+      internalID: -867716283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_84
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1999
+        width: 233
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc399eb61121d96459854c189fc4128d
+      internalID: 1905438414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_85
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1888
+        width: 244
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148568cb514d6e3459a671b013005fd2
+      internalID: 1505940792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_86
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1996
+        width: 114
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7f9fd06dbd554439b006f22a4eccd7
+      internalID: -413483211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_87
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2095
+        width: 184
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa9cb49bfa58f7499edc880a33d162b
+      internalID: -1683898490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_88
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2011
+        width: 154
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062b136199e52a49b60b437dde4aa59
+      internalID: -1460044396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_89
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1981
+        width: 135
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f623cb0720f0d94ea2e9a1ac55a9d5b
+      internalID: -1830518694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_90
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 2047
+        width: 199
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7321e5fc9a8649e4ab973fef654f187c
+      internalID: -952275562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_91
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 2034
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1c24adcd2a9cb4daf63908477bc939
+      internalID: 1937348816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_92
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2023
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5adaede0bc61d64880939cba061a786
+      internalID: 1261284480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_93
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 2028
+        width: 182
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292f27e8d20cb3547bf10b2e9628ac4c
+      internalID: 1438120405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_94
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1689
+        width: 175
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0587178e2cba9464abd0d115a08ce3a7
+      internalID: -382484006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_95
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 2120
+        width: 166
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ddd3b206f733f4fafe42e6034d8807
+      internalID: -2009109762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_96
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 1945
+        width: 192
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fba6095b663d7d45ba7b83cf20e722a
+      internalID: -1730715756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_97
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2042
+        width: 175
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b889cfd49be6614f850143e27616c1d
+      internalID: -1708675206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_98
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 2008
+        width: 170
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86098112429f31a43bd6e054e990a6a6
+      internalID: -613010787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_99
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1927
+        width: 164
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334d26e4878ef15469e0dc5f70d42772
+      internalID: 608335030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_100
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 2094
+        width: 37
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b8704491beca9448d79f2aa06f59b4
+      internalID: 721332169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_101
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 2060
+        width: 44
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52a0ce2973e13a45b32c611e8a211e0
+      internalID: 1006197018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_102
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 1778
+        width: 139
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7389e7e25920fc64f905ad3611b65b4d
+      internalID: -1791069036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_103
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 1764
+        width: 193
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cf2a79cb877044c97acfef4882f325
+      internalID: -480832484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_104
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1936
+        width: 194
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c25209a14de244895878d649b9cd0f
+      internalID: 2129654043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_105
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 1964
+        width: 174
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06919fa8c120ff4d850eaa7d4057b16
+      internalID: 1034918392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_106
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 2088
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880fabab4f505e147897f7202ed74bdf
+      internalID: 317465229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_107
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 2056
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b93f9627cacf64b928ac6308a1fa83
+      internalID: -1842176547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_108
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1877
+        width: 124
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd7631420457bb48bf1a0f1f084b22a
+      internalID: 1460141414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_109
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 2044
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459bb2fc790af0b4eb8934b18e720139
+      internalID: -1323621987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_110
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1735
+        width: 34
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f784c1400077be84291b34d785b8a87f
+      internalID: -618884519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_111
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1801
+        width: 146
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f42ceabd3d5dd44920419e9d2f6aaa
+      internalID: 488140321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_112
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1881
+        width: 112
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cf1f5a25f68474d81a7257a2d0ba07
+      internalID: 1963230594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_113
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1857
+        width: 131
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503c9e42362a21245b447ad3df4380a8
+      internalID: 373252158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_114
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1825
+        width: 151
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317b65f1c9cf687479af4030447c8f1b
+      internalID: 620381660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_115
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 1862
+        width: 178
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752146566eea37b459f26b02f124de42
+      internalID: -1111042413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_116
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 1891
+        width: 173
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90b4b89831bdec4c8d3d2cb529f9548
+      internalID: 1597720802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_117
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 1728
+        width: 249
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42c2849aa340304192937d3c89a55a4
+      internalID: -1565311108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_118
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 2001
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc50ee9b71eb4ac459f43385ed931790
+      internalID: -1728540457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_119
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1692
+        width: 251
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e15a0209a0e0b4d9a51208696de2d5
+      internalID: -146726607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_120
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1732
+        width: 102
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43268ad6738fca44e813dc519093f13d
+      internalID: 766631596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1891
+        width: 275
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bcdb0c330183c4e917f0c5ad6150c8
+      internalID: 1109497988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_122
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1891
+        width: 201
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f9c1eedd4db945886dd45569c08d9
+      internalID: -2043943696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_123
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1888
+        width: 177
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cce618cdf6910a40987ed0318234025
+      internalID: 809351009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_124
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1795
+        width: 131
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693a360acaa0f8b408403e7e65fce0d8
+      internalID: -80478508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_125
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 1805
+        width: 178
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162b0d8429c390747827eea0b6c6b348
+      internalID: 680023823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_126
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 1948
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c56b81d93ee744f9b9f467a3ff26f4
+      internalID: 1105669439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_127
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1894
+        width: 57
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cd25c7932c35b49b480836c7e9fccd
+      internalID: 738127216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_128
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1891
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32949c69a4c4814986bc2cc47ce8b9a
+      internalID: -60252868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_129
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1741
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cf5e5a55f70fd429ebe7975091a73b
+      internalID: 2011460846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_130
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 1689
+        width: 137
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e618573abe99d66459331c9fb7847f99
+      internalID: -1772748377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_131
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 1805
+        width: 191
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4ca9e6ce027514eb5ea21b81f9d24f
+      internalID: -99328222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_132
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 1604
+        width: 201
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1161d487b22797143b25d0da21bf96c2
+      internalID: 2102944379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_133
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 1676
+        width: 55
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ba4138e80a9014c8c518eff947484f
+      internalID: 2131520530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1772
+        width: 463
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7521e5bd0545e95489c6a2711f6a3ba7
+      internalID: -2039463350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_135
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1772
+        width: 195
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8082209185e880438e134951a57de0c
+      internalID: -210041564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_136
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1772
+        width: 175
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4357a019c8b5dbf458e703cf77e42e30
+      internalID: 605699806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_137
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1593
+        width: 123
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e7180bf6a53df449c8e96ff65c0afd
+      internalID: -961250850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_138
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1594
+        width: 131
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635f39b69bb78ab4dbbb06e0982db61e
+      internalID: 142753447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_139
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1723
+        width: 120
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f9950999f8b0141b226cfff3d9e84e
+      internalID: -820206501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_140
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1707
+        width: 126
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e1d0110f346fe41b30cbb8889dd7e0
+      internalID: 481625302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_141
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1674
+        width: 130
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c9d96473e101c41a1a51e6a74901d0
+      internalID: -511657784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_142
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1632
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536bc37e883ad264082960d846011e63
+      internalID: 1458145221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_143
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1667
+        width: 156
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31990835a5950248b681759bed3d8ed
+      internalID: -1078889892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_144
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 1626
+        width: 344
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7158d6955a493d4083ecd3cf077ed5a
+      internalID: 1830379747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_145
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1584
+        width: 137
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0480b4b28491ac439b3202cf42ddf26
+      internalID: -281643554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_146
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 1334
+        width: 164
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d613ff4685a1e584da2c298fc8f0e25f
+      internalID: 1011619580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1603
+        width: 236
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02873b0293ba799469e88b73a9429890
+      internalID: -1842169683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_148
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1589
+        width: 216
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5f25e95bee5054c9565464481eab41
+      internalID: -1178860029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_149
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1589
+        width: 211
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f145cd5b62ae64419675a68e7fb7a3a
+      internalID: 1570540797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_150
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1580
+        width: 216
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d867c0d5b3c9d240a06167f373ed674
+      internalID: 776812929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_151
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1568
+        width: 184
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47c79dcaee4b564a807ee801dd5788e
+      internalID: 998913407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_152
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1364
+        width: 121
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bf0f166a44ba946b68b8f4f11e862c
+      internalID: -1512952198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_153
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1086
+        width: 94
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde0e588c8ba74b4a8119ea842f49349
+      internalID: -1599962405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_154
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 1359
+        width: 247
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f33b13e2b0564f8dfc8343044e52d
+      internalID: 260041493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_155
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1721
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78115eff0b270d849a4d7d9a606f63ae
+      internalID: -1385531128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_156
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 984
+        width: 212
+        height: 780
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6841599874fd25488e43605c8f1682e
+      internalID: -1962879074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 218
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7466868285ac3b345bf560bf02406879
+      internalID: 1652118794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_158
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1415
+        width: 239
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e78e8bdb737749a7767b477cd9b1d
+      internalID: 950854691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_159
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1380
+        width: 211
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae6eeede2ece044a9f151f2ed6dba40
+      internalID: 1055179350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_160
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1378
+        width: 209
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31403f0a85ff0494aa265d596e04c013
+      internalID: 48692691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_161
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1366
+        width: 200
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85058a4bb7bcca4429f76cbb38cbde07
+      internalID: -2125727054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_162
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1329
+        width: 119
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f742e661d86a84b9f3db996f6fbcce
+      internalID: -1772108075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_163
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1384
+        width: 128
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5abae7d27e32b84eae9993aba443579
+      internalID: 558212678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_164
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1537
+        width: 125
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed58223e84d553c49ac778850ffab8f2
+      internalID: 1472138979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_165
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1452
+        width: 135
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41252d5bb76bec4dad4b668322f099f
+      internalID: 755041784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_166
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1462
+        width: 181
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581c57685aeb54642b3486ddf5e6fd78
+      internalID: -1023301199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_167
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1474
+        width: 159
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62870930ded6f7f4fac8d0887b4ee205
+      internalID: 2063626207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_168
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1523
+        width: 184
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2b6db6f4c203c4882ab44e62783342
+      internalID: -1114873046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_169
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 1523
+        width: 107
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de059507899034e49b54c66a58ac5b2b
+      internalID: 1835814929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_170
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1516
+        width: 195
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ffc70244d5d914ab019626100fe381
+      internalID: 1739213608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_171
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 940
+        width: 396
+        height: 638
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68c6983058efbf4685cd6be44ad77f4
+      internalID: -1022085277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_172
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 1288
+        width: 28
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a81804138037104dacf82a5421b8adb
+      internalID: 683019425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_173
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 1281
+        width: 185
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8069e6f0250974e4c8841881048b49a1
+      internalID: 1522520614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_174
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1250
+        width: 243
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0f939d2d574464a829f147a559d1b6
+      internalID: -1148999908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_175
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 1250
+        width: 138
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e363c0575d8eb409074eed4a11a02d
+      internalID: -1700880146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_176
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1516
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bca9773b4839043a688bbe5a66ea18
+      internalID: 1844961561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_177
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1353
+        width: 121
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e67fa517472b847998c33f8b95c27d
+      internalID: -713313504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_178
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 1364
+        width: 215
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cff8c66d9409e459f67ce71abe3479
+      internalID: 249755969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_179
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 1227
+        width: 336
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df4acd294ca56b4eb1577bd3abd9bb3
+      internalID: -1359021929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1204
+        width: 209
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eecc5018bad7e54bbadbd4c00765d6e
+      internalID: -871937910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_181
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1171
+        width: 181
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7452ef445282ae24cae8f5405b3a7a13
+      internalID: 70173879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_182
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1394
+        width: 19
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a432e0f54be6a4f8ed1ea578524cdf
+      internalID: 1225036485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_183
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1222
+        width: 135
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b4eeb2074ac2a46a6578c8b682ffc7
+      internalID: -1352573333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_184
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1292
+        width: 179
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ef1c5bb5e61d444a6890534ef097b8
+      internalID: -983786171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_185
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1305
+        width: 181
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d46250549d83f4692cb136dc1e947b
+      internalID: -1008621747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_186
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1323
+        width: 22
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef852e1131657745b7b4fe0a7dc9a5e
+      internalID: -918062068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_187
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1171
+        width: 199
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40e5b302927c2b44b080054cdcf5518
+      internalID: -1186498221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_188
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1171
+        width: 199
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff99cba2a9fa5cf4e82a804f45449e9d
+      internalID: 362905035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_189
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1372
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537a2dc6275da97459036189f5b5001a
+      internalID: -680081259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_190
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1320
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8156ac966de70c341879164aa21f8f69
+      internalID: -1460977407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_191
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1164
+        width: 197
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb214c1e20b307408fa52e337222762
+      internalID: -823117767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_192
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1122
+        width: 196
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e3fd89669021745935c4acbba4d335
+      internalID: -960480923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_193
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1103
+        width: 126
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af58137d8bbef440a44fc7d95195a87
+      internalID: 1780228148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_194
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1108
+        width: 120
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2512e62b2de4b1448adf0fa6a1082d1d
+      internalID: -1427987094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_195
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1105
+        width: 120
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b02ab88ee3f4e4bbf0ce9b55432abf
+      internalID: 1883962844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_196
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 1132
+        width: 294
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d34f875970d1047a870b6087c712b4
+      internalID: -1151189042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_197
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 904
+        width: 173
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cbdbe222f3fbf4fbe86aa82e32e51c
+      internalID: 751939532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_198
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1006
+        width: 347
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a219c776c7789334f9fdb31ba5314440
+      internalID: -1005294497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_199
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 1228
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c84c9649c14230499ec9ba4cf43c039
+      internalID: -219889924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_200
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 472
+        width: 187
+        height: 809
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c04ee6a354174f8a3bd87d4861830
+      internalID: 2032325790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_201
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 932
+        width: 340
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e7783db2681a34c8c8ed97da63c35a
+      internalID: -1999221445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_202
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 982
+        width: 225
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4950529d2fc3d47a3030bb5d575fa6
+      internalID: 1365726026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_203
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 952
+        width: 236
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecfd668e33f1ed4c8daa778589083ba
+      internalID: -183717516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_204
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 962
+        width: 197
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51194517f9f021d42a790ab61797641e
+      internalID: 402734709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_205
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 962
+        width: 197
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069d58c5112b4054db9a124b9e3aa4a3
+      internalID: -373060887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_206
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 920
+        width: 198
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2515c621cdf3fe748ad8a787ae452b4f
+      internalID: 382653492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_207
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 906
+        width: 195
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdefd3027b586ae42ad79a3152d94746
+      internalID: 938235675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_208
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 715
+        width: 248
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8be55fafbd0a24fa30a00f3c799ab4
+      internalID: 2128479364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_209
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 839
+        width: 319
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae0a6075aebf5d41b7f3798e068cdbe
+      internalID: -2092657518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_210
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 960
+        width: 182
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254d51c2004ba6d4bb66ad32b74223a4
+      internalID: 801188670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_211
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 973
+        width: 193
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b8645a50464d946b473f4b1b492140
+      internalID: 1591047467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_212
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 973
+        width: 180
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e77c1eec8604f7469b5b2fb7ac3b639
+      internalID: -1789322641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_213
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 1074
+        width: 336
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c055ed75b14844abf56d1d4cc09528
+      internalID: 657269895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_214
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 932
+        width: 194
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550b664bd96a2c94b814c16226bc6dc3
+      internalID: 1322396297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_215
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1068
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aded1fdaeadfab44684e1446fe2337dc
+      internalID: 152739181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 240
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f412dd74c338b140b8385027ebab754
+      internalID: -1297782050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_217
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 800
+        width: 184
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debff324ea4fd8642aa5bbe61ac07082
+      internalID: -538060764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_218
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 962
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c07a16e3eb4884479c0e2721812ba15
+      internalID: -381203449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_219
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 561
+        width: 253
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90dd391268130f47975e0796ce54e83
+      internalID: -1113121682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_220
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 566
+        width: 181
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924c5b08d6b810a4998e20d03d2437fe
+      internalID: 702886750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_221
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 728
+        width: 240
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8939fb31f577b41b416107eb9f84fa
+      internalID: 1465226210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_222
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 718
+        width: 218
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f6f63752740e644a4d3add09842c84
+      internalID: 1287103151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_223
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 718
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2190f3b0bc34d094499b301f584dc95a
+      internalID: -808976032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_224
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 621
+        width: 287
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031c5b4299ebe1b46b7268d0d7413780
+      internalID: -1722879622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_225
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 709
+        width: 205
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68e45536c4daaf41aa657c615e07f8b
+      internalID: 55483436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_226
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 662
+        width: 197
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953172a5158e66c49ab712d3507dd193
+      internalID: 1366883468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_227
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 786
+        width: 182
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5137bb7223fcbf4e9b5963f2fa0788c
+      internalID: -1624300993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_228
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 783
+        width: 89
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1550370c1afdb45b8bb1be1108228e
+      internalID: 1683029676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_229
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 664
+        width: 246
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3495fb45e88bb4685c160ed6e4b300
+      internalID: -413931444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_230
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 540
+        width: 470
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4a50b4e08dab44bac777ae52ccecd
+      internalID: -1042902781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_231
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 638
+        width: 385
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291bc5f145f70cd4db8c41d6743e4cb0
+      internalID: 99679000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_232
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 619
+        width: 102
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f37e698ca1e194fbf68768ece9e110
+      internalID: 509024705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_233
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 515
+        width: 210
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d251c5be3a54bc498adcd2c1389f72d
+      internalID: -649347511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_234
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 614
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a689251d465a541aa3b2772e9c5c82
+      internalID: 2040465636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_235
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 515
+        width: 279
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0348c2d5740b49b49bdd51a7fa24bd17
+      internalID: -1035905051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_236
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 440
+        width: 270
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7022e87463a09b4bb95c5b125ac6870
+      internalID: -1674368059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_237
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 621
+        width: 185
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ec07bff5139fc41b241736cf7dddd3
+      internalID: -550465467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_238
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 603
+        width: 181
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10368906fe8bbd44b89b05d1e7bcee44
+      internalID: -1311859133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_239
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 530
+        width: 196
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a371e0db8fd57647ba7bc532918d5d6
+      internalID: -1945660035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_240
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 492
+        width: 197
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7813a89b8b1ba7d4eb2e24c743944a91
+      internalID: -809512239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_241
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 655
+        width: 266
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d03619a4c8f16f4d91bad5e0f9a9026
+      internalID: 219128044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_242
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 496
+        width: 196
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a0ff366cefeca42932513f8c3e1634
+      internalID: -836269327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_243
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 0
+        width: 144
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645ef1030bdd23048b65a7014821578e
+      internalID: -1941376638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_244
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 636
+        width: 4
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeffa65510f8e3f4290f6ba5d0d9fc6a
+      internalID: -354188260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_245
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 418
+        width: 194
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c28621d1737e142a4ab6f3f4831845
+      internalID: -83289754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_246
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 361
+        width: 430
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490b65fa84508a74fb8ca0adb45d8b86
+      internalID: 225657164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_247
+      rect:
+        serializedVersion: 2
+        x: 3829
+        y: 614
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707c242d437d99149b15529b93fce31a
+      internalID: -1023410581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_248
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 616
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1227e5a700d7ab349b4f95647ceaf17d
+      internalID: -770440073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_249
+      rect:
+        serializedVersion: 2
+        x: 3868
+        y: 616
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6b59f3aa294734499c2b088852b3d4
+      internalID: 1416030520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_250
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 616
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caa51921b31b564a8c172093df1fc44
+      internalID: -599004814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_251
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 418
+        width: 207
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912091d96721d3e4493a2dd2d7592bde
+      internalID: -871733798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_252
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 604
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dd5d7864779354cba637235ec87451
+      internalID: 1714965780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_253
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 472
+        width: 286
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163b2aa2ae503d64e9eeb99512115b91
+      internalID: -980849248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_254
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 361
+        width: 94
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c191004bf9f2408be5119e9a050c2
+      internalID: -518691582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_255
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 493
+        width: 147
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f446fe770c57f4783200b6ed28a095
+      internalID: 612312455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_256
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 560
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ba961ce198840478b668ef6218f1dc
+      internalID: -352826940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_257
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 334
+        width: 190
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05945bc9bb679e740b6d1bc311bee370
+      internalID: -1134810238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_258
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 326
+        width: 185
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0796640082a475c4cba7ff3f32e37f34
+      internalID: -511449833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_259
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 480
+        width: 265
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ce8928ecb44f545bb5347d11092017
+      internalID: -684459750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_260
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 480
+        width: 170
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4361243ba1cacc245aaeadce695e3d2d
+      internalID: -1802697935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_261
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 520
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94ad62ae39a0e748a5003c25c20a04b
+      internalID: -1018268193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_262
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 280
+        width: 81
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c9f9a1ad33c9c45a9c33ec7396a13e
+      internalID: 688417784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_263
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 564
+        height: 516
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6852f5effbe54a34cbea76d12b026c82
+      internalID: 137238463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_264
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 316
+        width: 197
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc1904cdd946c64b841c91faf71605e
+      internalID: -918602066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_265
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 315
+        width: 195
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f538a9a1c3580e489daef0fbd4c512c
+      internalID: 303883888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_266
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 490
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8b805f624ee284b9f735f75f6d294a
+      internalID: 1853689873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_267
+      rect:
+        serializedVersion: 2
+        x: 3964
+        y: 345
+        width: 64
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e659539941d4e74683916d572059df5
+      internalID: 1691971920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_268
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 140
+        width: 260
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5fb7a5270e262459230b2c7c2bbb7f
+      internalID: -1988219200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_269
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 140
+        width: 200
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b099b56616c648a5c86f19c2d7a20
+      internalID: -1032925450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_270
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 140
+        width: 262
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa55d37b1254614fa071f34629296e1
+      internalID: -874992855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_271
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 124
+        width: 454
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3d3cf352a946d4fb72f1d28839d1f3
+      internalID: 1217702473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_272
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 150
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029647717cf12154b82c360461da7da3
+      internalID: 167187814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_273
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 126
+        width: 452
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ad03dd3b2647240a1fca78a5e5fa69
+      internalID: 412029881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_274
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 127
+        width: 556
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0b43b73fc69484a9c1c39cb88d4f81
+      internalID: 1395452377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_275
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 5
+        width: 75
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6195ff03dd075a446abc72ca3ce00203
+      internalID: 1038211982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_276
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 0
+        width: 1478
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8697091954550448bbd38268f7ef66c
+      internalID: -905932121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_277
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 127
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d3ea008df8ad542bd97d3c0263e716
+      internalID: 2029132258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_278
+      rect:
+        serializedVersion: 2
+        x: 3922
+        y: 0
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c061fb625bf5884d9a7a071cd7ccb26
+      internalID: 1867795467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_279
+      rect:
+        serializedVersion: 2
+        x: 4062
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc7101ec2f38554c8441201a477d9a8
+      internalID: -421801534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_280
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 140
+        width: 200
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c66e816083bf504797c08674add69d9
+      internalID: 1831361816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_281
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 140
+        width: 200
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3fbfac507a44745ab1825cae87bd18
+      internalID: 1782572589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_282
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 147
+        width: 200
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccce0949d83d98418c29c4f99d41e24
+      internalID: -1175036445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lace_283
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 316
+        width: 200
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98775fc94681584a89efcc44caece78
+      internalID: 754239612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lace_0: -741700694
+      Lace_1: -953459178
+      Lace_10: 448551833
+      Lace_100: 721332169
+      Lace_101: 1006197018
+      Lace_102: -1791069036
+      Lace_103: -480832484
+      Lace_104: 2129654043
+      Lace_105: 1034918392
+      Lace_106: 317465229
+      Lace_107: -1842176547
+      Lace_108: 1460141414
+      Lace_109: -1323621987
+      Lace_11: -170097083
+      Lace_110: -618884519
+      Lace_111: 488140321
+      Lace_112: 1963230594
+      Lace_113: 373252158
+      Lace_114: 620381660
+      Lace_115: -1111042413
+      Lace_116: 1597720802
+      Lace_117: -1565311108
+      Lace_118: -1728540457
+      Lace_119: -146726607
+      Lace_12: -1960746856
+      Lace_120: 766631596
+      Lace_121: 1109497988
+      Lace_122: -2043943696
+      Lace_123: 809351009
+      Lace_124: -80478508
+      Lace_125: 680023823
+      Lace_126: 1105669439
+      Lace_127: 738127216
+      Lace_128: -60252868
+      Lace_129: 2011460846
+      Lace_13: 27413190
+      Lace_130: -1772748377
+      Lace_131: -99328222
+      Lace_132: 2102944379
+      Lace_133: 2131520530
+      Lace_134: -2039463350
+      Lace_135: -210041564
+      Lace_136: 605699806
+      Lace_137: -961250850
+      Lace_138: 142753447
+      Lace_139: -820206501
+      Lace_14: 2056558734
+      Lace_140: 481625302
+      Lace_141: -511657784
+      Lace_142: 1458145221
+      Lace_143: -1078889892
+      Lace_144: 1830379747
+      Lace_145: -281643554
+      Lace_146: 1011619580
+      Lace_147: -1842169683
+      Lace_148: -1178860029
+      Lace_149: 1570540797
+      Lace_15: -735886563
+      Lace_150: 776812929
+      Lace_151: 998913407
+      Lace_152: -1512952198
+      Lace_153: -1599962405
+      Lace_154: 260041493
+      Lace_155: -1385531128
+      Lace_156: -1962879074
+      Lace_157: 1652118794
+      Lace_158: 950854691
+      Lace_159: 1055179350
+      Lace_16: 1496247102
+      Lace_160: 48692691
+      Lace_161: -2125727054
+      Lace_162: -1772108075
+      Lace_163: 558212678
+      Lace_164: 1472138979
+      Lace_165: 755041784
+      Lace_166: -1023301199
+      Lace_167: 2063626207
+      Lace_168: -1114873046
+      Lace_169: 1835814929
+      Lace_17: 1091610771
+      Lace_170: 1739213608
+      Lace_171: -1022085277
+      Lace_172: 683019425
+      Lace_173: 1522520614
+      Lace_174: -1148999908
+      Lace_175: -1700880146
+      Lace_176: 1844961561
+      Lace_177: -713313504
+      Lace_178: 249755969
+      Lace_179: -1359021929
+      Lace_18: -247062687
+      Lace_180: -871937910
+      Lace_181: 70173879
+      Lace_182: 1225036485
+      Lace_183: -1352573333
+      Lace_184: -983786171
+      Lace_185: -1008621747
+      Lace_186: -918062068
+      Lace_187: -1186498221
+      Lace_188: 362905035
+      Lace_189: -680081259
+      Lace_19: 1314949916
+      Lace_190: -1460977407
+      Lace_191: -823117767
+      Lace_192: -960480923
+      Lace_193: 1780228148
+      Lace_194: -1427987094
+      Lace_195: 1883962844
+      Lace_196: -1151189042
+      Lace_197: 751939532
+      Lace_198: -1005294497
+      Lace_199: -219889924
+      Lace_2: -1346626702
+      Lace_20: -1159478857
+      Lace_200: 2032325790
+      Lace_201: -1999221445
+      Lace_202: 1365726026
+      Lace_203: -183717516
+      Lace_204: 402734709
+      Lace_205: -373060887
+      Lace_206: 382653492
+      Lace_207: 938235675
+      Lace_208: 2128479364
+      Lace_209: -2092657518
+      Lace_21: 902953455
+      Lace_210: 801188670
+      Lace_211: 1591047467
+      Lace_212: -1789322641
+      Lace_213: 657269895
+      Lace_214: 1322396297
+      Lace_215: 152739181
+      Lace_216: -1297782050
+      Lace_217: -538060764
+      Lace_218: -381203449
+      Lace_219: -1113121682
+      Lace_22: 1850985186
+      Lace_220: 702886750
+      Lace_221: 1465226210
+      Lace_222: 1287103151
+      Lace_223: -808976032
+      Lace_224: -1722879622
+      Lace_225: 55483436
+      Lace_226: 1366883468
+      Lace_227: -1624300993
+      Lace_228: 1683029676
+      Lace_229: -413931444
+      Lace_23: -3674234
+      Lace_230: -1042902781
+      Lace_231: 99679000
+      Lace_232: 509024705
+      Lace_233: -649347511
+      Lace_234: 2040465636
+      Lace_235: -1035905051
+      Lace_236: -1674368059
+      Lace_237: -550465467
+      Lace_238: -1311859133
+      Lace_239: -1945660035
+      Lace_24: -947076145
+      Lace_240: -809512239
+      Lace_241: 219128044
+      Lace_242: -836269327
+      Lace_243: -1941376638
+      Lace_244: -354188260
+      Lace_245: -83289754
+      Lace_246: 225657164
+      Lace_247: -1023410581
+      Lace_248: -770440073
+      Lace_249: 1416030520
+      Lace_25: -199618012
+      Lace_250: -599004814
+      Lace_251: -871733798
+      Lace_252: 1714965780
+      Lace_253: -980849248
+      Lace_254: -518691582
+      Lace_255: 612312455
+      Lace_256: -352826940
+      Lace_257: -1134810238
+      Lace_258: -511449833
+      Lace_259: -684459750
+      Lace_26: -226937349
+      Lace_260: -1802697935
+      Lace_261: -1018268193
+      Lace_262: 688417784
+      Lace_263: 137238463
+      Lace_264: -918602066
+      Lace_265: 303883888
+      Lace_266: 1853689873
+      Lace_267: 1691971920
+      Lace_268: -1988219200
+      Lace_269: -1032925450
+      Lace_27: 1489611191
+      Lace_270: -874992855
+      Lace_271: 1217702473
+      Lace_272: 167187814
+      Lace_273: 412029881
+      Lace_274: 1395452377
+      Lace_275: 1038211982
+      Lace_276: -905932121
+      Lace_277: 2029132258
+      Lace_278: 1867795467
+      Lace_279: -421801534
+      Lace_28: -1527713014
+      Lace_280: 1831361816
+      Lace_281: 1782572589
+      Lace_282: -1175036445
+      Lace_283: 754239612
+      Lace_29: -921899056
+      Lace_3: 1774681247
+      Lace_30: -42361637
+      Lace_31: -1452274662
+      Lace_32: -106402385
+      Lace_33: -1144621092
+      Lace_34: 1178976955
+      Lace_35: -2120949323
+      Lace_36: -1424092674
+      Lace_37: -1403545385
+      Lace_38: -1486833607
+      Lace_39: 499601594
+      Lace_4: -659413887
+      Lace_40: 632116820
+      Lace_41: -341092282
+      Lace_42: 781571522
+      Lace_43: -1691821161
+      Lace_44: -248775075
+      Lace_45: 334744950
+      Lace_46: 1563970289
+      Lace_47: -53259979
+      Lace_48: 2020909733
+      Lace_49: -1785707692
+      Lace_5: 1725878148
+      Lace_50: -282724958
+      Lace_51: -2119740535
+      Lace_52: -1906134450
+      Lace_53: -1571829700
+      Lace_54: -559744985
+      Lace_55: 1510219102
+      Lace_56: 71770809
+      Lace_57: 1517383831
+      Lace_58: 1552005670
+      Lace_59: -1051336394
+      Lace_6: 1785835201
+      Lace_60: 2039758409
+      Lace_61: -846452783
+      Lace_62: 1398404105
+      Lace_63: 1339768266
+      Lace_64: -423731376
+      Lace_65: 1091185534
+      Lace_66: 1205535474
+      Lace_67: 1461594637
+      Lace_68: 368315489
+      Lace_69: 2099120493
+      Lace_7: 1628714162
+      Lace_70: -738467202
+      Lace_71: -166805450
+      Lace_72: -700007695
+      Lace_73: -1387251713
+      Lace_74: 1280358206
+      Lace_75: -723961871
+      Lace_76: 581277111
+      Lace_77: -873564282
+      Lace_78: -1778408626
+      Lace_79: 1893529557
+      Lace_8: -506387485
+      Lace_80: -1566904087
+      Lace_81: -1703874976
+      Lace_82: -1735709428
+      Lace_83: -867716283
+      Lace_84: 1905438414
+      Lace_85: 1505940792
+      Lace_86: -413483211
+      Lace_87: -1683898490
+      Lace_88: -1460044396
+      Lace_89: -1830518694
+      Lace_9: 759469520
+      Lace_90: -952275562
+      Lace_91: 1937348816
+      Lace_92: 1261284480
+      Lace_93: 1438120405
+      Lace_94: -382484006
+      Lace_95: -2009109762
+      Lace_96: -1730715756
+      Lace_97: -1708675206
+      Lace_98: -613010787
+      Lace_99: 608335030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

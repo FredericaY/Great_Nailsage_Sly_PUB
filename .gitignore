@@ -86,7 +86,7 @@ ServerData
 [Aa]ssets/Addressables_Temp*
 # By default, Addressables content builds will generate addressables_content_state.bin
 # files in platform-specific subfolders, for example:
-# Assets/AddressableAssetsData/OSX/addressables_content_state.bin
+# /Assets/AddressableAssetsData/OSX/addressables_content_state.bin
 [Aa]ssets/AddressableAssetsData/*/*.bin*
 
 # Visual Scripting auto-generated files
