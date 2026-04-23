@@ -1,5 +1,7 @@
 using UnityEngine;
 using Game.Enemies;
+using Game.Combat;
+using Game.Player;
 
 [DisallowMultipleComponent]
 public class FKAttackEmitter : MonoBehaviour
@@ -17,8 +19,9 @@ public class FKAttackEmitter : MonoBehaviour
     [SerializeField] private EnemyBlackboard blackboard;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform spawnPoint;
-    [SerializeField] private EnemyAttack attackData;
-    [SerializeField] private EnemyProjectile projectileData;
+    [SerializeField] private EnemyAttackData attackData;
+    [SerializeField] private EnemyProjectileData projectileData;
+    [SerializeField] private FKAudioEmitter audioEmitter;
 
     [Header("Prefabs")]
     [SerializeField] private FKAttackHitbox normalHitboxPrefab;
@@ -83,11 +86,14 @@ public class FKAttackEmitter : MonoBehaviour
         if (!animator) animator = root != null ? root.Animator : GetComponentInChildren<Animator>();
         if (!spawnPoint) spawnPoint = transform;
 
-        if (!attackData) attackData = GetComponent<EnemyAttack>();
-        if (!attackData) attackData = GetComponentInParent<EnemyAttack>();
+        if (!attackData) attackData = GetComponent<EnemyAttackData>();
+        if (!attackData) attackData = GetComponentInParent<EnemyAttackData>();
 
-        if (!projectileData) projectileData = GetComponent<EnemyProjectile>();
-        if (!projectileData) projectileData = GetComponentInParent<EnemyProjectile>();
+        if (!projectileData) projectileData = GetComponent<EnemyProjectileData>();
+        if (!projectileData) projectileData = GetComponentInParent<EnemyProjectileData>();
+
+        if (!audioEmitter) audioEmitter = GetComponent<FKAudioEmitter>();
+        if (!audioEmitter) audioEmitter = GetComponentInParent<FKAudioEmitter>();
     }
 
     public bool RequestNormalAttack()
@@ -171,6 +177,27 @@ public class FKAttackEmitter : MonoBehaviour
         pendingAttackKind = AttackKind.None;
     }
 
+    // Legacy/bridge forwarders for animation-event binding convenience.
+    public void AnimEvent_ForwardSfxEnemyFalseKnightAttack()
+    {
+        if (audioEmitter != null) audioEmitter.AnimEvent_SfxEnemyFalseKnightAttack();
+    }
+
+    public void AnimEvent_ForwardSfxEnemyFalseKnightStrikeGround()
+    {
+        if (audioEmitter != null) audioEmitter.AnimEvent_SfxEnemyFalseKnightStrikeGround();
+    }
+
+    public void AnimEvent_ForwardSfxEnemyFalseKnightJump()
+    {
+        if (audioEmitter != null) audioEmitter.AnimEvent_SfxEnemyFalseKnightJump();
+    }
+
+    public void AnimEvent_ForwardSfxEnemyFalseKnightLand()
+    {
+        if (audioEmitter != null) audioEmitter.AnimEvent_SfxEnemyFalseKnightLand();
+    }
+
     private void SpawnNormalHitbox()
     {
         if (!normalHitboxPrefab) return;
@@ -205,18 +232,21 @@ public class FKAttackEmitter : MonoBehaviour
         }
 
         Transform rootParent = root != null ? root.transform : null;
-        FKShockwaveProjectileHitbox wave = Instantiate(waveProjectilePrefab, worldPos, Quaternion.identity, rootParent);
+        FKShockwaveProjectileHitbox wave =
+            ProjectilePoolService.Spawn(waveProjectilePrefab, worldPos, Quaternion.identity, rootParent);
 
         if (detachProjectileFromRootAfterSpawn)
             wave.transform.SetParent(null, true);
 
-        wave.Init(
-            gameObject,
-            dir,
-            root != null ? root.MoveRange : null,
-            projectileData,
-            blackboard != null ? blackboard.player : null
-        );
+        var initData = new ProjectileInitData
+        {
+            owner = gameObject,
+            castDirection = dir,
+            moveRange = root != null ? root.MoveRange : null,
+            enemyProjectileData = projectileData,
+            target = ResolveAimPoint(blackboard != null ? blackboard.player : null)
+        };
+        wave.Init(initData);
     }
 
     private void SpawnJumpAttackHitbox()
@@ -235,7 +265,11 @@ public class FKAttackEmitter : MonoBehaviour
 
     private int GetFacingSign()
     {
-        if (blackboard != null) return blackboard.facingRight ? 1 : -1;
+        if (blackboard != null)
+        {
+            if (root != null) return root.GetFacingScaleSign(blackboard.facingRight);
+            return blackboard.facingRight ? 1 : -1;
+        }
         return transform.localScale.x >= 0f ? 1 : -1;
     }
 
@@ -244,5 +278,14 @@ public class FKAttackEmitter : MonoBehaviour
         if (animator == null) return;
         if (string.IsNullOrEmpty(trigger)) return;
         animator.SetTrigger(trigger);
+    }
+
+    private static Transform ResolveAimPoint(Transform rawTarget)
+    {
+        if (rawTarget == null) return null;
+        PlayerRoot playerRoot = rawTarget.GetComponentInParent<PlayerRoot>();
+        if (playerRoot != null && playerRoot.AimPoint != null)
+            return playerRoot.AimPoint;
+        return rawTarget;
     }
 }

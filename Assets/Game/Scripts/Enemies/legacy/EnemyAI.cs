@@ -1,9 +1,11 @@
 using UnityEngine;
 using Game.Combat;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class EnemyAI : MonoBehaviour
+namespace Game.Enemies.Legacy
 {
+    [RequireComponent(typeof(Rigidbody2D))]
+    public class EnemyAI : MonoBehaviour
+    {
     [Header("State")]
     public EnemyState currentState = EnemyState.Patrol;
     [Tooltip("Seconds to stay Idle at game start before patrolling.")]
@@ -208,5 +210,6 @@ public class EnemyAI : MonoBehaviour
         Vector2 origin = (Vector2)transform.position + Vector2.down * footOffset + Vector2.right * (faceDir * edgeCheckOffset);
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(origin, origin + Vector2.down * edgeCheckDepth);
+    }
     }
 }

@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Game.Combat;
-public enum EnemyState
+namespace Game.Enemies.Legacy
 {
-    Idle,
-    Patrol,
-    Chase,
-    Dead
+    public enum EnemyState
+    {
+        Idle,
+        Patrol,
+        Chase,
+        Dead
+    }
 }

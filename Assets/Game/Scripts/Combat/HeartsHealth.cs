@@ -148,5 +148,6 @@ namespace Game.Combat
             if (hearts != before)
                 OnHeartsChanged?.Invoke(hearts);
         }
+
     }
 }

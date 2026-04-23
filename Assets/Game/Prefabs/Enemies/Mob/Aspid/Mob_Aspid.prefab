@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 3432924895393657869}
   - component: {fileID: 1462705751021325452}
   - component: {fileID: 8232021737472126641}
+  - component: {fileID: 5461446013958198515}
   - component: {fileID: 5004825890023029487}
   - component: {fileID: 6601453263453903712}
   - component: {fileID: 117700863684586966}
@@ -85,7 +86,7 @@ Transform:
   m_GameObject: {fileID: 1944042063387809393}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56.69902, y: 52.57119, z: 0}
+  m_LocalPosition: {x: 13.97, y: 3.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -94,6 +95,7 @@ Transform:
   - {fileID: 2119615113450386480}
   - {fileID: 2635422198720564339}
   - {fileID: 1461780444050392439}
+  - {fileID: 2181395995693429569}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1826035429448039049
@@ -124,7 +126,12 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(367.521118,40.0477142)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.62904358,137.0068)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-159.1373,155.627319)"},"ID":2,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0,150)"},"ID":3,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false}}]}}'
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(367.521118,40.0477142)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.62904358,137.0068)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(0,150)"},"ID":2,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-53.7331924,156.8262)"},"ID":3,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-202.992447,181.2706)"},"ID":4,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BT_ASP_HasAggroTarget","NodeData":{"Offset":"(-112.622032,163.863037)"},"ID":5,"Name":"BT  
+        ASP   Has Aggro Target","Instant":true},{"Type":"BT_ASP_CombatFly","NodeData":{"Offset":"(113.118637,163.863113)"},"ID":6,"Name":"BT  
+        ASP   Combat Fly","Instant":true,"SinglepreferredDistance":4.5,"SingledistanceTolerance":0.8,"SingledistanceBufferTime":0.35,"SinglemoveSpeed":3.2,"SinglexAccel":18,"SinglepreferredDistanceWobble":0.25,"SinglepreferredDistanceWobbleFrequency":0.7,"SinglenearDriftSpeed":0.35,"SinglenearDriftFrequency":1.4,"SingleswayAmplitude":0.35,"SingleswayFrequency":1.8,"SingleverticalFollowSpeed":2.6,"SingleedgePadding":0.2},{"Type":"BT_ASP_RandomWait","NodeData":{"Offset":"(277.8427,158.86972)"},"ID":7,"Name":"BT  
+        ASP   Random Wait","Instant":true,"SingleminWait":0.4,"SinglemaxWait":1.1},{"Type":"BT_ASP_Attack","NodeData":{"Offset":"(428.118561,163.8631)"},"ID":8,"Name":"BT  
+        ASP   Attack","Instant":true,"SingleminAttackDistance":2.6,"SinglemaxAttackDistance":7.5,"SingleattackChancePerDecision":0.65}]},{"Type":"BT_ASP_FlyWander","NodeData":{"Offset":"(357.748535,191.6413)"},"ID":9,"Name":"BT  
+        ASP   Fly Wander","Instant":true,"Singlespeed":2.4,"SinglereachDistance":0.2,"SingleyBand":1.2,"SingleedgePadding":0.2,"SingleminIdle":0.1,"SinglemaxIdle":0.45}]}]}]}}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -180,6 +187,7 @@ MonoBehaviour:
   hurtVfx: {fileID: 8232021737472126641}
   death: {fileID: 5186516232790388097}
   animator: {fileID: 8330025034005771228}
+  spriteDefaultFacesRight: 0
   ground: {fileID: 8665487415083790144}
   moveRange: {fileID: 0}
   behaviorTree: {fileID: 1826035429448039049}
@@ -198,12 +206,14 @@ MonoBehaviour:
   root: {fileID: 4173549521338256363}
   bb: {fileID: 3432924895393657869}
   hpHealth: {fileID: 1462705751021325452}
+  geoReward: 5
+  isFlying: 1
   collidersToDisable:
   - {fileID: 2565161538538537267}
   - {fileID: 5165826984556782568}
   - {fileID: 7086239276911502910}
   destroyOnDeath: 1
-  destroyDelay: 1.5
+  destroyDelay: 0.5
   disableRigidbodyOnDeath: 1
 --- !u!114 &3432924895393657869
 MonoBehaviour:
@@ -239,9 +249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5515e55e089ba0347a3062db335d6445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 200
-  hp: 200
-  hazardMode: 1
+  maxHP: 40
+  hp: 40
+  hazardMode: 0
 --- !u!114 &8232021737472126641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +272,20 @@ MonoBehaviour:
   flashColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.06
   flashTimes: 1
+--- !u!114 &5461446013958198515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944042063387809393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d4d9525c34a898439f924419053685e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  root: {fileID: 4173549521338256363}
+  emitPoint: {fileID: 5964015606152581556}
 --- !u!114 &5004825890023029487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +299,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8330025034005771228}
+  writeGrounded: 0
   groundedParam: Grounded
+  writeDead: 1
+  deadParamMode: 1
+  deadParam: Dead
 --- !u!114 &6601453263453903712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,14 +316,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 667f30cb7abb42ca9d116fa2be65dad8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileKind: 0
+  projectileKind: 1
   projectileDamage: 10
   projectileHittableLayers:
     serializedVersion: 2
     m_Bits: 192
   speed: 10
   maxLifeTime: 4
-  destroyOnMoveRangeBound: 1
+  destroyOnMoveRangeBound: 0
   boundaryPadding: 0.05
   homingUpdateInterval: 0.08
   homingDuration: 1.2
@@ -517,6 +545,8 @@ GameObject:
   - component: {fileID: 91958020886887734}
   - component: {fileID: 8330025034005771228}
   - component: {fileID: 7381046650475393892}
+  - component: {fileID: 5685107425757429178}
+  - component: {fileID: 1919881124533403470}
   m_Layer: 14
   m_Name: Graphics
   m_TagString: Untagged
@@ -612,6 +642,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5685107425757429178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7644032525688766828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f80ce6a1e53f504d97c4739b90a490a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  root: {fileID: 4173549521338256363}
+  blackboard: {fileID: 3432924895393657869}
+  animator: {fileID: 8330025034005771228}
+  spawnPoint: {fileID: 91958020886887734}
+  projectileData: {fileID: 6601453263453903712}
+  aggroSensor: {fileID: 7429574180807291976}
+  audioEmitter: {fileID: 0}
+  projectilePrefab: {fileID: 2387729476632650758, guid: ef937c9a4042b3a4488db3617b899c3b, type: 3}
+  attackTrigger: Attack
+  projectileOffset: {x: 0.8, y: 0.1}
+  attackLockTimeout: 1.5
+  clampToMoveRangeAlways: 1
+  moveRangeEdgePadding: 0.2
+--- !u!114 &1919881124533403470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7644032525688766828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2ad2e05774d85b7516456a12d8f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  root: {fileID: 4173549521338256363}
+  blackboard: {fileID: 3432924895393657869}
+  emitFlyLoopSfx: 1
+  debugAudio: 1
 --- !u!1 &7912958223804291840
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,4 +775,86 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   hitCooldown: 0.35
+  playerTag: Player
+--- !u!1 &7938156152298011709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2181395995693429569}
+  - component: {fileID: 2070446645746929663}
+  - component: {fileID: 7429574180807291976}
+  m_Layer: 17
+  m_Name: AggroSensor2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2181395995693429569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7938156152298011709}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5964015606152581556}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2070446645746929663
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7938156152298011709}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 8.047763
+--- !u!114 &7429574180807291976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7938156152298011709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7351ca33b301c694cb54c0c45b5bbc69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackboard: {fileID: 3432924895393657869}
   playerTag: Player

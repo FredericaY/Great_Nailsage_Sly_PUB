@@ -1,17 +1,16 @@
 using UnityEngine;
 using Game.Utils.Physics2D;
+using Game.Systems.Charm;
     
 namespace Game.Player
 {
-    // ─────────────────────────────
     // PlayerRoot is the structural entry point of the Player entity.
-    // ─────────────────────────────
     [DisallowMultipleComponent]
     public class PlayerRoot : MonoBehaviour
     {
-        // ─────────────────────────────
+        // ------------------------------
         // References
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Core Components")]
         [SerializeField] private Rigidbody2D _rb;
         [SerializeField] private Collider2D _collider;
@@ -19,34 +18,41 @@ namespace Game.Player
         [Header("Visual Roots")]
         [SerializeField] private Transform graphicsRoot;      // Player/Graphics
         [SerializeField] private Transform vfxRoot;           // Player/VFX
+        [SerializeField] private Transform aimPoint;          // Player/AimPoint
         [SerializeField] private Animator graphicsAnimator;   // Graphics - Animator
         [SerializeField] private Animator bloodFxAnimator;    // VFX/HitFX - Animator
 
-        // ─────────────────────────────
+        // ------------------------------
         // Modules
-        // ─────────────────────────────
+        // ------------------------------
         public PlayerInput Input { get; private set; }
         public PlayerMovement Movement { get; private set; }
         public PlayerCombat Combat { get; private set; }
         public PlayerFacing Facing { get; private set; }
         public PlayerJump Jump { get; private set; }
+        public PlayerAnimatorDriver AnimDriver { get; private set; }
         public GroundSensor2D Ground { get; private set; }
+        public WallSensor2D Wall { get; private set; }
+        public PlayerCharmInventory CharmInventory { get; private set; }
+        public PlayerCharmRuntime CharmRuntime { get; private set; }
+        public PlayerConsumables Consumables { get; private set; }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Public accessors (read-only)
-        // ─────────────────────────────
+        // ------------------------------
         public Rigidbody2D Rb => _rb;
         public Collider2D Collider => _collider;
 
         public Transform GraphicsRoot => graphicsRoot;
         public Transform VfxRoot => vfxRoot;
+        public Transform AimPoint => aimPoint;
 
         public Animator GraphicsAnimator => graphicsAnimator;
         public Animator BloodFxAnimator => bloodFxAnimator;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Methods
-        // ─────────────────────────────
+        // ------------------------------
         private void Reset()
         {
             AutoAssignCore();
@@ -70,6 +76,8 @@ namespace Game.Player
         {
             if (graphicsRoot == null) graphicsRoot = transform.Find("Graphics");
             if (vfxRoot == null) vfxRoot = transform.Find("VFX");
+            if (aimPoint == null) aimPoint = transform.Find("AimPoint");
+            if (aimPoint == null) aimPoint = transform;
 
             if (graphicsAnimator == null && graphicsRoot != null)
                 graphicsAnimator = graphicsRoot.GetComponent<Animator>();
@@ -89,7 +97,12 @@ namespace Game.Player
             Combat = GetComponent<PlayerCombat>();
             Facing = GetComponent<PlayerFacing>();
             Jump = GetComponent<PlayerJump>();
+            AnimDriver = GetComponent<PlayerAnimatorDriver>();
             Ground = GetComponentInChildren<GroundSensor2D>();
+            Wall = GetComponentInChildren<WallSensor2D>();
+            CharmInventory = GetComponent<PlayerCharmInventory>();
+            CharmRuntime = GetComponent<PlayerCharmRuntime>();
+            Consumables = GetComponent<PlayerConsumables>();
         }
     }
 }

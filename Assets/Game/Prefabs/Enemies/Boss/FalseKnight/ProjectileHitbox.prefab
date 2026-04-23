@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5653912473147473078}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6, y: 1.84, z: 0}
+  m_LocalPosition: {x: 2.6, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -148,14 +148,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e314baead4448c7be4d312ba7c51f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyOnHitDamageTarget: 1
+  destroyOnWorldCollision: 1
+  worldCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  ignoreDamageTargetsForWorldCollision: 1
+  debugLifecycle: 0
+  projectileData: {fileID: 0}
   fallbackDamage: 10
   fallbackHittableLayers:
     serializedVersion: 2
     m_Bits: 192
   fallbackSpeed: 10
   fallbackLifeTime: 4
-  destroyOnWorldCollision: 1
-  worldCollisionLayers:
-    serializedVersion: 2
-    m_Bits: 128
-  ignoreDamageTargetsForWorldCollision: 1
+  fallbackDestroyOnMoveRangeBound: 1
+  fallbackBoundaryPadding: 0.05
+  fallbackHomingUpdateInterval: 0.08
+  fallbackHomingDuration: 0
+  forceEnemyProjectileLayer: 1
+  enemyProjectileLayerName: EnemyProjectile

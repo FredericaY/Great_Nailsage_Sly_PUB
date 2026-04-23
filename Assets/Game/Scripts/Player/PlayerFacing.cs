@@ -1,34 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Game.Player
 {
-    // ─────────────────────────────
-    // Handles facing direction by flipping a visual root
-    // ─────────────────────────────
+    // PlayerFacing
+    // - Tracks logical facing direction.
+    // - Flips graphics root on X axis.
+    // - Accepts facing input from movement/wall logic.
     [DisallowMultipleComponent]
     public class PlayerFacing : MonoBehaviour
     {
-        // ─────────────────────────────
-        // Facing Settings
-        // ─────────────────────────────
+        // ------------------------------
+        // Types
+        // ------------------------------
         public enum FacingDir { Left = -1, Right = 1 }
-        
+
+        // ------------------------------
+        // Config
+        // ------------------------------
         [Header("Visual Root (Graphics)")]
         [SerializeField] private Transform graphicsRoot;
 
         [Header("Initial Facing")]
         [SerializeField] private FacingDir startFacing = FacingDir.Right;
-        
+
+        // ------------------------------
+        // Public state
+        // ------------------------------
         public FacingDir Current { get; private set; }
-        
-        // ─────────────────────────────
+
+        // ------------------------------
         // Methods
-        // ─────────────────────────────
+        // ------------------------------
         private void Reset()
         {
-            // Try to auto-find a child named "Graphics"
+            // Try to auto-find a child named "Graphics".
             var t = transform.Find("Graphics");
             if (t != null) graphicsRoot = t;
         }
@@ -43,6 +48,7 @@ namespace Game.Player
 
             SetFacing(startFacing, force: true);
         }
+
         public void SetFacing(FacingDir dir, bool force = false)
         {
             if (!force && dir == Current) return;
@@ -50,7 +56,7 @@ namespace Game.Player
 
             Vector3 s = graphicsRoot.localScale;
 
-            // default RIGHT
+            // Default orientation is facing right.
             s.x = (dir == FacingDir.Right)
                 ? Mathf.Abs(s.x)
                 : -Mathf.Abs(s.x);

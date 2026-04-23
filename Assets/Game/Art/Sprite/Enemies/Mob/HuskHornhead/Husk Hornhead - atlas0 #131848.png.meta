@@ -1,0 +1,875 @@
+fileFormatVersion: 2
+guid: fbb918428b9eb4f9b8af481339a36774
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hornhead_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1394
+        width: 118
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57169b82cb4f5b28452a0080313c4ebe
+      internalID: -93101885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1394
+        width: 118
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bd0747906de12b5dd4738ac24595a4
+      internalID: 1294970639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1394
+        width: 118
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb94b596c8e0d32c2bf3c62ea9add27
+      internalID: -1364319864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1394
+        width: 118
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b26a9f608a0b93491e4b540758f1eb
+      internalID: 1341227241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1394
+        width: 118
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c397dae315255ce19460aa9065cf74
+      internalID: -2024999126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1394
+        width: 118
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baace88bd64a330885041ea4352dc82a
+      internalID: 1486451443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1190
+        width: 139
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0c864134b49bbfdf41720d70ab78a7
+      internalID: 1360864681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1190
+        width: 139
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e5c2d87c9d2e3c31219b9adcb87ac7
+      internalID: -138679443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1190
+        width: 139
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b456c88e34bde6db6c61b079a8ab1330
+      internalID: 1718915442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1190
+        width: 139
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e989a1bb39860fb9533e2e56e080b7
+      internalID: -656787193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1190
+        width: 139
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc605d230cc9e2369bf588105af8277
+      internalID: 151798422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1190
+        width: 139
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224c184ab1491dc6c3a8f164550b95af
+      internalID: -1956188587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1190
+        width: 139
+        height: 182
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea54bee654e9aa0e00f3586af899735d
+      internalID: -780573957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Turn_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 972
+        width: 104
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3654e113fd6ffb14a9c04fb669bc18db
+      internalID: 2069977324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_Turn_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 972
+        width: 104
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfd85283d6d9cf4a0890a6ba83396dc
+      internalID: -1151869259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkAnticipate_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 760
+        width: 171
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eee9fbbbf6e65459e58eeadedbff673
+      internalID: -766102233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkAnticipate_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 760
+        width: 171
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eab2628f9f601aa5763d1fbf281a493
+      internalID: 159853888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkAnticipate_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 760
+        width: 171
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1c5d60fb2119710781cd30ccc63596
+      internalID: 243223165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkAnticipate_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 760
+        width: 171
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf94e4cb6ed14d39f09eb8ab04cfabd9
+      internalID: -1439712215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkAnticipate_4
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 760
+        width: 171
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fd1e55868eb356819eab8c8d3b711e
+      internalID: -1430194517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkLunge_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 622
+        width: 182
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1812e830bdaa5c5837b40f1d84a94
+      internalID: 1870065633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkLunge_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 622
+        width: 182
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf3ae3717baba2120736f366f12d6e2
+      internalID: -901367486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkLunge_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 622
+        width: 182
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beece2ef09d1c9b5f2cdddc0b93ec1fa
+      internalID: 487904880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkLunge_3
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 622
+        width: 182
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ce12c978852b3839696f748eee27ba
+      internalID: 842038225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_AtkCooldown_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 437
+        width: 132
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b06ce31c148278b85c00f73fb275bf
+      internalID: 2113247072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathAir_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 284
+        width: 154
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5b7a6f0715c76b30e56a502691f32d
+      internalID: -164410337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 134
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc025e89e8b2b2d4a89e27647a6d0319
+      internalID: -2079510436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 134
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deafe502d9752a59846bcc4bed39dc87
+      internalID: -1582306849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 134
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bd6be1418ba6969ea11fb480302fcf
+      internalID: -1514310712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 134
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840d598e6fc8ce266f5f5483272e6aa0
+      internalID: -1679891100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 134
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc8294c06ed0e6441714c499f572d34
+      internalID: 263857361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4541f59f1503ba84f1a7cc956d1925
+      internalID: -1033438087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8edcd9c9343a62f6baf5621b985139
+      internalID: -1157147180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hornhead_DeathLand_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 3
+        width: 190
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0.0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031fe542fa9a9e8321db0f8fb29024d8
+      internalID: 1576554725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hornhead_AtkAnticipate_0: -766102233
+      Hornhead_AtkAnticipate_1: 159853888
+      Hornhead_AtkAnticipate_2: 243223165
+      Hornhead_AtkAnticipate_3: -1439712215
+      Hornhead_AtkAnticipate_4: -1430194517
+      Hornhead_AtkCooldown_0: 2113247072
+      Hornhead_AtkLunge_0: 1870065633
+      Hornhead_AtkLunge_1: -901367486
+      Hornhead_AtkLunge_2: 487904880
+      Hornhead_AtkLunge_3: 842038225
+      Hornhead_DeathAir_0: -164410337
+      Hornhead_DeathLand_0: -2079510436
+      Hornhead_DeathLand_1: -1582306849
+      Hornhead_DeathLand_2: -1514310712
+      Hornhead_DeathLand_3: -1679891100
+      Hornhead_DeathLand_4: 263857361
+      Hornhead_DeathLand_5: -1033438087
+      Hornhead_DeathLand_6: -1157147180
+      Hornhead_DeathLand_7: 1576554725
+      Hornhead_Idle_0: -93101885
+      Hornhead_Idle_1: 1294970639
+      Hornhead_Idle_2: -1364319864
+      Hornhead_Idle_3: 1341227241
+      Hornhead_Idle_4: -2024999126
+      Hornhead_Idle_5: 1486451443
+      Hornhead_Turn_0: 2069977324
+      Hornhead_Turn_1: -1151869259
+      Hornhead_Walk_0: 1360864681
+      Hornhead_Walk_1: -138679443
+      Hornhead_Walk_2: 1718915442
+      Hornhead_Walk_3: -656787193
+      Hornhead_Walk_4: 151798422
+      Hornhead_Walk_5: -1956188587
+      Hornhead_Walk_6: -780573957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

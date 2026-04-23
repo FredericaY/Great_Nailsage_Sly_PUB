@@ -7,7 +7,7 @@ using Game.Enemies;
 [RequireComponent(typeof(Collider2D))]
 public class FKAttackHitbox : MonoBehaviour
 {
-    [Header("Fallback Data (used if EnemyAttack source missing)")]
+    [Header("Fallback Data (used if EnemyAttackData source missing)")]
     [SerializeField] private int fallbackDamage = 1;
     [SerializeField] private float fallbackLifeTime = 0.12f;
     [SerializeField] private LayerMask fallbackHittableLayers;
@@ -18,7 +18,7 @@ public class FKAttackHitbox : MonoBehaviour
     private GameObject owner;
     private Vector2 attackDir = Vector2.right;
     private Collider2D triggerCol;
-    private EnemyAttack attackData;
+    private EnemyAttackData attackData;
     private float lifeTime;
 
     private void Reset()
@@ -43,7 +43,7 @@ public class FKAttackHitbox : MonoBehaviour
     public void Init(
         GameObject ownerObj,
         Vector2 dir,
-        EnemyAttack sourceData)
+        EnemyAttackData sourceData)
     {
         owner = ownerObj;
         attackDir = dir.sqrMagnitude > 0f ? dir.normalized : Vector2.right;

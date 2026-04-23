@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Game/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Game/Scenes/Levels/All_Levels.unity
+    guid: a5e97cfe3dee5430ca31a630b3d7ed4f
+  - enabled: 0
+    path: Assets/Game/Scenes/Levels/Greenpath_Room1.unity
+    guid: deb48fdb70dd44500bf04597e835dadc
+  - enabled: 0
+    path: Assets/Game/Scenes/Levels/Hive_Room1.unity
+    guid: a900bc401decd48eeaadd351132da7e3
+  - enabled: 0
+    path: Assets/Game/Scenes/Levels/Level_01_jy.unity
+    guid: 01b383aa58fa18c489810684c1e8b48c
   m_configObjects: {}

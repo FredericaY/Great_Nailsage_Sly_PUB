@@ -4,32 +4,48 @@ using Game.Utils;  // SpriteFlashUtil
 
 namespace Game.Player
 {
+    // PlayerHurtVfx
+    // - Listens to hurt events from HeartsHealth.
+    // - Cancels attack and requests body/blood hurt animations.
+    // - Plays flash feedback during i-frames.
     [DisallowMultipleComponent]
     public class PlayerHurtVfx : MonoBehaviour
     {
+        // ------------------------------
+        // Config: References
+        // ------------------------------
         [Header("References")]
         [SerializeField] private HeartsHealth heartsHealth;
 
+        // ------------------------------
+        // Config: Flash (Shader _Flash)
+        // ------------------------------
         [Header("Flash (Shader _Flash)")]
         [SerializeField] private SpriteRenderer[] flashTargets;
         [SerializeField] private Color flashColor = Color.white;
         [SerializeField] private float flashHz = 12f;
 
+        // ------------------------------
+        // Config: Optional links
+        // ------------------------------
         [SerializeField] private PlayerCombat combat;
 
-        // hurt requests
+        // ------------------------------
+        // Runtime state
+        // ------------------------------
         private bool _hasHurtRequest;
         private bool _hasBloodRequest;
-
         private Coroutine _flashCo;
 
+        // ------------------------------
+        // Methods
+        // ------------------------------
         private void Reset()
         {
             AutoAssignRefs();
             AutoAssignTargets();
             Clamp();
             if (!combat) combat = GetComponentInParent<PlayerCombat>();
-
         }
 
         private void Awake()
@@ -38,7 +54,6 @@ namespace Game.Player
             AutoAssignTargets();
             Clamp();
             if (!combat) combat = GetComponentInParent<PlayerCombat>();
-
         }
 
         private void OnEnable()
@@ -54,10 +69,8 @@ namespace Game.Player
 
             _flashCo = null;
 
-            // 确保关闭 flash
             if (!CoroutineRunner.IsQuitting)
                 SpriteFlashUtil.Flash(flashTargets, 0f, flashColor, 1);
-
         }
 
 #if UNITY_EDITOR

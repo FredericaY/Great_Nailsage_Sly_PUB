@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 4151c1c0e615247429ced7b02465623f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hive_all_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2174
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9050822ecd65844719ea4e2c9cadfb1a
+      internalID: -172240387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1981
+        width: 320
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b992f9793194d4dabe666b28646ca1
+      internalID: 154141427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 2065
+        width: 256
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bda700ab860941caa97290584c0cbb0
+      internalID: 1796453681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_3
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1974
+        width: 197
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caff1bec456d49a1bd05874a114abaf
+      internalID: 1687000930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_4
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2028
+        width: 310
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a9e02a4dd84d00b49743e244669a9
+      internalID: -1842413173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_5
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1969
+        width: 55
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca585bd58418c417f87921d8b59d8e79
+      internalID: 1443938868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_6
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1960
+        width: 48
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74789e206814144268c65256ada7548d
+      internalID: 856239273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_7
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1832
+        width: 231
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ee17693db3641bd86eacf2ecc5eee0
+      internalID: -2032307874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_8
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 2062
+        width: 138
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd677508a9c194c40a999650e5d35712
+      internalID: -1270296241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_9
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1799
+        width: 89
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cc080f15a7b4283b69d8bcfd243fdc
+      internalID: -1075015073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_10
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1968
+        width: 213
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc1bdf05f03640e5ad563edcc311cc3
+      internalID: -1937442668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_11
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2089
+        width: 70
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c656f4e0520d4c1996f167ebc86c4da
+      internalID: -976986733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_12
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 2088
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78851deb3ff87499d9c66dc017c74a09
+      internalID: -194315552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_13
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 2084
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6509dce7f892c49b7ad99ecdae08676d
+      internalID: -61191784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_14
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 2034
+        width: 101
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ccaa9a18bae414ab2c2e72c5408216
+      internalID: -955268947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2135
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3349311770aa34b52a0c670c4726b995
+      internalID: 394390462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_16
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1916
+        width: 111
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73e74e17c07f474baea7df24333ffea
+      internalID: 661366179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2097
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9452032d72d4f92a514771b28d4f5b
+      internalID: -1801609462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2009
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438b80a57ffbe490baafb9915ca6acfc
+      internalID: 541467305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_19
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1952
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0b7d56c39ad4dc59b58ea6343fac5a
+      internalID: -1156687160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_20
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 1784
+        width: 146
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d357d06988d324758a881775745d6c5f
+      internalID: -241196362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_21
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 1702
+        width: 32
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b68ce6927b44b419837543c1c2761c
+      internalID: -689233036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1811
+        width: 284
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb17de5d7dc5476a9887fec6aabdf36
+      internalID: -580433538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_23
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1662
+        width: 170
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18e40511b81646198e6c68b7630af8b
+      internalID: -1968375990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_24
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1756
+        width: 169
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3936b22b2c6cf4d99a31cd03622c9825
+      internalID: 585574046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_26
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 1840
+        width: 56
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016e10e4691334af69c53be8c787ce21
+      internalID: 366521412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_27
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 1847
+        width: 56
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5283c7ed3af07462d9e5bcd52d4c8969
+      internalID: 793685705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_28
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1670
+        width: 217
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7af9fc40782248269cad2480248b00b
+      internalID: 774003144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_29
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1706
+        width: 100
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87931e64e3eb144df9db9b9ce029b159
+      internalID: -1584475341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_33
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1793
+        width: 83
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f982f7659775e47368185514430372b9
+      internalID: 1674228000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_34
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1826
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565db550a3cdc410ea2891a72a666ab2
+      internalID: -1015546337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_35
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1893
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c749172ee83684d708254d737646b886
+      internalID: -1734403851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_36
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1793
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441b831b004e34178835e15d0534759f
+      internalID: 1830088236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_38
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1803
+        width: 143
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be09d86c9c425477691ab4d25b34982d
+      internalID: 1212480301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_39
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 1720
+        width: 156
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23704f62250434e3e869b5c130fcd7d8
+      internalID: -113477123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_40
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 1779
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0447ba98e33a84763ae67df328fd762b
+      internalID: 780159235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1610
+        width: 214
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4fbe1c0700b4354b9f9c4ef47312ed
+      internalID: -1493896210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_43
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1603
+        width: 500
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072e50688f4ae4c50a35c097c04deed0
+      internalID: -1663805084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_44
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1565
+        width: 260
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88c00c87d48a4d8089408b80e90b5bd
+      internalID: 1929199480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_45
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1680
+        width: 140
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b70dcf41641461c81e0b9eda14661c
+      internalID: -359429756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_46
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1589
+        width: 140
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a4d637214744a91b1347a8c3c2b5a1
+      internalID: 2095552442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_47
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 1655
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe5ddd8515ef41209f12aaa9d74fddf
+      internalID: 1027639440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1449
+        width: 583
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b043da26029f541178029d7f47f957a4
+      internalID: -2085597088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_49
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1522
+        width: 470
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2538110cfa6734799a7fa0563de7334c
+      internalID: -1041497573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_50
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1563
+        width: 143
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c3039edcd0c47cf82dbf35d4169409
+      internalID: -572635791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_51
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1576
+        width: 65
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd7e7c4d1540401fb9205dd9420bef9
+      internalID: -2026440863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_52
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 1507
+        width: 135
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae240a39bdeb14c6e8d8b02d921d8fca
+      internalID: -1120627130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_53
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1582
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e975d1bf18dd410abee4b3458ca5714
+      internalID: 1236802456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_54
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1460
+        width: 393
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c85e1bcf78b4e088b9ead51576b323
+      internalID: -753382286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_56
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1510
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ed71e73689c4df0bfb05186755e0b2
+      internalID: -1805848692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_57
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1513
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac0fbece4eb540548ce4d8da690cd61
+      internalID: 1416865599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_59
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1425
+        width: 252
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603134f3e83cc43ec932d6623e4afd12
+      internalID: 927203663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_60
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 1181
+        width: 170
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa5f11a52adf41eb947e5073f5aa723
+      internalID: 379277339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 697
+        width: 184
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039623201aad0479e834bdf9aab9c7df
+      internalID: 189540957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_62
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1167
+        width: 265
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1f7dcda1c1c4beda669ecf9a7a1227
+      internalID: 1997524642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_63
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1352
+        width: 93
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205b5c0aeae20409685bc0239f92b62a
+      internalID: -573796669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_64
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1194
+        width: 220
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c187d75ac084475194af0d5704e3c49
+      internalID: -1699918693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_65
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1153
+        width: 364
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c62062fb30d74366856523f6601b037
+      internalID: 1731281191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_66
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1019
+        width: 151
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7b914a7b74740a99d96adeb76d15a5
+      internalID: 509865608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_67
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1045
+        width: 234
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5face15aaf449f798ce7a3f5325840
+      internalID: -1028918631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_69
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1182
+        width: 336
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b44f6d4dd2b44cb5bcd96f237027e59
+      internalID: 585203509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_70
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 937
+        width: 293
+        height: 529
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be65f8b0024874ccf97661906ec05de0
+      internalID: 341695114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_71
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1234
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e1aaa3c0180455abbb72f57d12cad9
+      internalID: -1740617401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_74
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1181
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb34ec8c8cb774a0ab65d89e504be062
+      internalID: -506710716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_77
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1101
+        width: 367
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b46a50f62cc4578a0658572463d6cf
+      internalID: -112770763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_78
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 778
+        width: 196
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df5356e5cbb24a009c1dbc47198630a
+      internalID: -1859702400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_79
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 912
+        width: 73
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ec41c8c982d48ed982258bbf27f246
+      internalID: -322872857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_80
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 902
+        width: 82
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a367dc9b7804bf79ca2a8c7b48e9e9
+      internalID: 1046615701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_81
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1054
+        width: 263
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d3e3d31b04c44f5b3cbe3b729aa02f
+      internalID: 2096445191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_82
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1039
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5474f7085c34c68ab2e15cc4e946cf
+      internalID: 795471598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_83
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1047
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b417265aadb9f49e9a03c5c00941613d
+      internalID: -1341942072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_84
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1074
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acf62a9ae3d64bbc963ba8c2950dbf3
+      internalID: 623167246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_85
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 769
+        width: 107
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b4f14d7b9474e288defbe57c5406a1
+      internalID: 1298030112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_87
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 348
+        width: 202
+        height: 699
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7170a3e3efcf34a4e85adec08743b7ac
+      internalID: -292724949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_89
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 887
+        width: 73
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f03b70db1644327b327a788772d50c
+      internalID: -637166865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_91
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 672
+        width: 464
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305a9f8e79acc48bea5e30d9621c81fc
+      internalID: -877051552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_92
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 770
+        width: 140
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1638c7dddfce143bc880f96d51d97b89
+      internalID: -64248775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_93
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 318
+        width: 209
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b25c99ee33fa47e5ba7ed527f933b00
+      internalID: 469842090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_94
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 884
+        width: 54
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0516a68cd5a67412ea4fd51fcb3c06df
+      internalID: -1072933593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_95
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 874
+        width: 273
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482e1905ab5346d3a895e0d81a730b5
+      internalID: 157246082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_96
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 413
+        width: 415
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f8bc141e5747c4a2ef0a3bf38bb84
+      internalID: -1254443051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_97
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 697
+        width: 114
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76937107a4c974cdfa0a6270dff5f0e6
+      internalID: -1926522089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_98
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 793
+        width: 201
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4791da7ec46947c5984bb9fc5342af4
+      internalID: -1522164561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_101
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 580
+        width: 175
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162f41525013249488080ec0b26ec95a
+      internalID: -1089820181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 354
+        height: 694
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04d24bd5c06d428f803da36bace898c
+      internalID: -565533082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_104
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 460
+        width: 170
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b45d838584f4f2681fc0e9ca4bb7e0
+      internalID: -1121723885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_105
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 656
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eedafcb71a1545a7b06f20236b325d3
+      internalID: -562811319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_106
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 108
+        width: 299
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd22923410fc4ef4a474ea366677ca9
+      internalID: 63006679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_107
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 556
+        width: 373
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f115d08374674282a69f28d3e71b7e5
+      internalID: -729322120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_108
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 594
+        width: 76
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5db266d6b1cc41acbd9ab1644eb56b3
+      internalID: 1081085501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_109
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 469
+        width: 334
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c81f2deacb3e468c8e6900415c07362
+      internalID: 318701218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_110
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 489
+        width: 321
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157b8f240cd224341a2c9c89fac6d361
+      internalID: 186560023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_111
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 386
+        width: 372
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1ebae5271d94d4ea3e193c1907ef13
+      internalID: -738463150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_112
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 331
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7c1837be3784e7d936cc35326ede5a
+      internalID: -849876457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_113
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 389
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461ddf896a83b45d6a275ee4c7862546
+      internalID: 251121856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_114
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 422
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47310e01a23e47e18582434d5a20eb5
+      internalID: -1863755914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_115
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 397
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8315395ad869c44dc841edebd2f02ff1
+      internalID: -1803022572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_116
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 15
+        width: 624
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5638b521125654013818bfe3f8736f53
+      internalID: -756514264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_117
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 304
+        width: 78
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cd92275517c49bd8675d5a7b96a921
+      internalID: -831342309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_118
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 257
+        width: 123
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b172ae70eb74cf99b31820d56e05d9
+      internalID: -1199572468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_119
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 239
+        width: 155
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd7fa3c1fca4fa591b19017d40bd1e
+      internalID: -805512336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_120
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 351
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1da43334b61a4bfcb942c0186d7e1cd
+      internalID: 442849238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_121
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 77
+        width: 139
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea76c9d48afd646d899791be08d25df7
+      internalID: -976414362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_124
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 6
+        width: 503
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96c735fa09547dcbd5b3440400d729
+      internalID: 752694947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_125
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 182
+        width: 87
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761f0d52a2f7d46f7bc260e51da18057
+      internalID: 1117366707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_126
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 220
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9e9a677e4cc4e54b34af9194234789
+      internalID: 1201178871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_127
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 252
+        width: 129
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2e9d08940bf48228398aae7df719b3
+      internalID: -1983535553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_128
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 21
+        width: 167
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc438cd36794422fbb1dc94d9b96775
+      internalID: -1097205224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_129
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 44
+        width: 132
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3e4073ff0d84e95a53c400924ba1df
+      internalID: -548520315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_130
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 46
+        width: 193
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23f1fdf4fd0644b89aac2d81cecf22e
+      internalID: -2025872305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_131
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 109
+        width: 137
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28da5655bca8646f3afefb15590f0869
+      internalID: -639532365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hive_all_133
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 12
+        width: 247
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed3d3579a0764ecc90a3271dec4d5cd
+      internalID: 374960787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hive_all_0: -172240387
+      hive_all_1: 154141427
+      hive_all_10: -1937442668
+      hive_all_100: 1150414687
+      hive_all_101: -1089820181
+      hive_all_102: -565533082
+      hive_all_103: -1933631543
+      hive_all_104: -1121723885
+      hive_all_105: -562811319
+      hive_all_106: 63006679
+      hive_all_107: -729322120
+      hive_all_108: 1081085501
+      hive_all_109: 318701218
+      hive_all_11: -976986733
+      hive_all_110: 186560023
+      hive_all_111: -738463150
+      hive_all_112: -849876457
+      hive_all_113: 251121856
+      hive_all_114: -1863755914
+      hive_all_115: -1803022572
+      hive_all_116: -756514264
+      hive_all_117: -831342309
+      hive_all_118: -1199572468
+      hive_all_119: -805512336
+      hive_all_12: -194315552
+      hive_all_120: 442849238
+      hive_all_121: -976414362
+      hive_all_122: -1879866766
+      hive_all_123: -450629812
+      hive_all_124: 752694947
+      hive_all_125: 1117366707
+      hive_all_126: 1201178871
+      hive_all_127: -1983535553
+      hive_all_128: -1097205224
+      hive_all_129: -548520315
+      hive_all_13: -61191784
+      hive_all_130: -2025872305
+      hive_all_131: -639532365
+      hive_all_132: 1017908321
+      hive_all_133: 374960787
+      hive_all_14: -955268947
+      hive_all_15: 394390462
+      hive_all_16: 661366179
+      hive_all_17: -1801609462
+      hive_all_18: 541467305
+      hive_all_19: -1156687160
+      hive_all_2: 1796453681
+      hive_all_20: -241196362
+      hive_all_21: -689233036
+      hive_all_22: -580433538
+      hive_all_23: -1968375990
+      hive_all_24: 585574046
+      hive_all_25: 462814744
+      hive_all_26: 366521412
+      hive_all_27: 793685705
+      hive_all_28: 774003144
+      hive_all_29: -1584475341
+      hive_all_3: 1687000930
+      hive_all_30: -2051822840
+      hive_all_31: -347987192
+      hive_all_32: 1905734882
+      hive_all_33: 1674228000
+      hive_all_34: -1015546337
+      hive_all_35: -1734403851
+      hive_all_36: 1830088236
+      hive_all_37: -1532883342
+      hive_all_38: 1212480301
+      hive_all_39: -113477123
+      hive_all_4: -1842413173
+      hive_all_40: 780159235
+      hive_all_41: -1493896210
+      hive_all_42: 1452639294
+      hive_all_43: -1663805084
+      hive_all_44: 1929199480
+      hive_all_45: -359429756
+      hive_all_46: 2095552442
+      hive_all_47: 1027639440
+      hive_all_48: -2085597088
+      hive_all_49: -1041497573
+      hive_all_5: 1443938868
+      hive_all_50: -572635791
+      hive_all_51: -2026440863
+      hive_all_52: -1120627130
+      hive_all_53: 1236802456
+      hive_all_54: -753382286
+      hive_all_55: 2025753837
+      hive_all_56: -1805848692
+      hive_all_57: 1416865599
+      hive_all_58: -168035063
+      hive_all_59: 927203663
+      hive_all_6: 856239273
+      hive_all_60: 379277339
+      hive_all_61: 189540957
+      hive_all_62: 1997524642
+      hive_all_63: -573796669
+      hive_all_64: -1699918693
+      hive_all_65: 1731281191
+      hive_all_66: 509865608
+      hive_all_67: -1028918631
+      hive_all_68: -1469374113
+      hive_all_69: 585203509
+      hive_all_7: -2032307874
+      hive_all_70: 341695114
+      hive_all_71: -1740617401
+      hive_all_72: -829553762
+      hive_all_73: -1848016786
+      hive_all_74: -506710716
+      hive_all_75: 1026299270
+      hive_all_76: -1809065043
+      hive_all_77: -112770763
+      hive_all_78: -1859702400
+      hive_all_79: -322872857
+      hive_all_8: -1270296241
+      hive_all_80: 1046615701
+      hive_all_81: 2096445191
+      hive_all_82: 795471598
+      hive_all_83: -1341942072
+      hive_all_84: 623167246
+      hive_all_85: 1298030112
+      hive_all_86: -1856333367
+      hive_all_87: -292724949
+      hive_all_88: -1480564931
+      hive_all_89: -637166865
+      hive_all_9: -1075015073
+      hive_all_90: -368101836
+      hive_all_91: -877051552
+      hive_all_92: -64248775
+      hive_all_93: 469842090
+      hive_all_94: -1072933593
+      hive_all_95: 157246082
+      hive_all_96: -1254443051
+      hive_all_97: -1926522089
+      hive_all_98: -1522164561
+      hive_all_99: -2129739945
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

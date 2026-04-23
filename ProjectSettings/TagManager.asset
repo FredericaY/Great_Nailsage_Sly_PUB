@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LevelExit
   layers:
   - Default
   - TransparentFX
@@ -22,8 +23,8 @@ TagManager:
   - NoCollision
   - EnemyHurtbox
   - BossSpawnTrigger
-  - 
-  - 
+  - AggroSensor
+  - PickupObject
   - 
   - 
   - 
@@ -40,6 +41,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG4
+    uniqueID: 690647985
+    locked: 0
+  - name: BG3
+    uniqueID: 3771082641
     locked: 0
   - name: BG2
     uniqueID: 2834666387
@@ -58,4 +65,7 @@ TagManager:
     locked: 0
   - name: FG2
     uniqueID: 3489414357
+    locked: 0
+  - name: FG3
+    uniqueID: 3524111487
     locked: 0

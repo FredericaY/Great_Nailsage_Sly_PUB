@@ -15,6 +15,8 @@ public class EnemyRoot : MonoBehaviour
 
     [Header("Presentation")]
     [SerializeField] private Animator animator;
+    [Header("Facing Config")]
+    [SerializeField] private bool spriteDefaultFacesRight = true;
     [Header("GroundSensor2D")]
     [SerializeField] private GroundSensor2D ground;
     [Header("Movement Range (optional)")]
@@ -31,9 +33,25 @@ public class EnemyRoot : MonoBehaviour
     public EnemyHurtVfx HurtVfx => hurtVfx;
     public EnemyDeath Death => death;
     public Animator Animator => animator;
+    public bool SpriteDefaultFacesRight => spriteDefaultFacesRight;
     public BehaviorTree BehaviorTree => behaviorTree;
     public GroundSensor2D Ground => ground;
     public EnemyMoveRange2D MoveRange => moveRange;
+
+    public int GetFacingScaleSign(bool facingRight)
+    {
+        return facingRight == spriteDefaultFacesRight ? 1 : -1;
+    }
+
+    public void ApplyFacing(bool facingRight)
+    {
+        if (blackboard != null)
+            blackboard.facingRight = facingRight;
+
+        Vector3 s = transform.localScale;
+        s.x = Mathf.Abs(s.x) * GetFacingScaleSign(facingRight);
+        transform.localScale = s;
+    }
     private void Reset()
     {
         AutoWire();
@@ -71,11 +89,11 @@ public class EnemyRoot : MonoBehaviour
         EnemyMoveRange2D bestAny = null;
         float bestAnyDist = float.MaxValue;
 
-        float x = transform.position.x;
+        Vector2 p = transform.position;
         foreach (var r in ranges)
         {
-            float centerX = (r.MinX + r.MaxX) * 0.5f;
-            float dist = Mathf.Abs(centerX - x);
+            Vector2 center = new Vector2((r.MinX + r.MaxX) * 0.5f, (r.MinY + r.MaxY) * 0.5f);
+            float dist = Vector2.Distance(center, p);
 
             if (dist < bestAnyDist)
             {
@@ -83,7 +101,7 @@ public class EnemyRoot : MonoBehaviour
                 bestAny = r;
             }
 
-            if (r.ContainsX(x, 0f) && dist < bestContainingDist)
+            if (r.ContainsX(p.x, 0f) && r.ContainsY(p.y, 0f) && dist < bestContainingDist)
             {
                 bestContainingDist = dist;
                 bestContaining = r;

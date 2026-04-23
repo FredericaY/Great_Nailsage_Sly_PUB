@@ -4,24 +4,22 @@ using Game.Combat;
 
 namespace Game.Player
 {
-    // ─────────────────────────────
     // PlayerDeath
     // - Listens to IDamageable death event.
     // - Reloads current scene on player death.
     // - Independent from specific health implementation.
-    // ─────────────────────────────
     [DisallowMultipleComponent]
     public class PlayerDeath : MonoBehaviour
     {
-        // ─────────────────────────────
+        // ------------------------------
         // Outlets
-        // ─────────────────────────────
+        // ------------------------------
         private PlayerRoot _root;
         private IDamageable _damageable;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Methods
-        // ─────────────────────────────
+        // ------------------------------
         private void Awake()
         {
             _root = GetComponent<PlayerRoot>();

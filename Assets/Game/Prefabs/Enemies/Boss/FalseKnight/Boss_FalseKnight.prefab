@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5226465145058674925}
   - component: {fileID: 5076948151194444177}
   - component: {fileID: 6779636873159235935}
+  - component: {fileID: 7905700459885678023}
   - component: {fileID: 852660336499663628}
   - component: {fileID: 1803391087569784317}
   - component: {fileID: 925260440858907938}
@@ -145,6 +146,7 @@ MonoBehaviour:
   hurtVfx: {fileID: 6779636873159235935}
   death: {fileID: 4226574539701798998}
   animator: {fileID: 1512411611786082350}
+  spriteDefaultFacesRight: 1
   ground: {fileID: 6368338130833628693}
   moveRange: {fileID: 0}
   behaviorTree: {fileID: 898797285521333915}
@@ -163,6 +165,8 @@ MonoBehaviour:
   root: {fileID: 4187977558644727800}
   bb: {fileID: 5226465145058674925}
   hpHealth: {fileID: 5076948151194444177}
+  geoReward: 50
+  playerTag: Player
   collidersToDisable:
   - {fileID: 1635327112862375322}
   - {fileID: 1778322252843621238}
@@ -227,6 +231,20 @@ MonoBehaviour:
   flashColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.06
   flashTimes: 1
+--- !u!114 &7905700459885678023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2444063110084965390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d4d9525c34a898439f924419053685e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  root: {fileID: 4187977558644727800}
+  emitPoint: {fileID: 8225612176310151960}
 --- !u!114 &852660336499663628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +258,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1512411611786082350}
+  writeGrounded: 1
   groundedParam: Grounded
+  writeDead: 1
+  deadParamMode: 0
+  deadParam: Dead
 --- !u!114 &1803391087569784317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +283,7 @@ MonoBehaviour:
   speed: 10
   maxLifeTime: 4
   destroyOnMoveRangeBound: 1
-  boundaryPadding: 0.05
+  boundaryPadding: 0
   homingUpdateInterval: 0.08
   homingDuration: 1.2
   defaultTarget: {fileID: 0}
@@ -453,7 +475,7 @@ GameObject:
   - component: {fileID: 7540313893715962541}
   - component: {fileID: 1259113875507299485}
   - component: {fileID: 6661602950255703188}
-  - component: {fileID: 1113073049523907923}
+  - component: {fileID: 7293517977478091667}
   m_Layer: 14
   m_Name: Graphics
   m_TagString: Untagged
@@ -567,6 +589,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 6248335401402167488}
   attackData: {fileID: 925260440858907938}
   projectileData: {fileID: 1803391087569784317}
+  audioEmitter: {fileID: 0}
   normalHitboxPrefab: {fileID: 3350310190447742253, guid: e15a89baaa15a8d43b5775eec5126d57, type: 3}
   waveProjectilePrefab: {fileID: 8334186794988626281, guid: c32354a7f8d725749a569d461913b28b, type: 3}
   jumpAttackHitboxPrefab: {fileID: 4746473981173349059, guid: e59e4ff26e1744b4f8a5ba25f99472e5, type: 3}
@@ -574,7 +597,7 @@ MonoBehaviour:
   waveAttackTrigger: WaveAttack
   jumpAttackTrigger: JumpAttack
   normalOffset: {x: 0, y: 0}
-  waveOffset: {x: 2.6, y: 1.84}
+  waveOffset: {x: 2.6, y: 1.9}
   jumpAttackOffset: {x: 0, y: 0}
   waveOffsetInRootLocalSpace: 1
   parentMeleeHitboxToRoot: 1
@@ -594,11 +617,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f9f9ea2b1e7431a9cc8f708b2ce69a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 1113073049523907923}
-  medium: {fileID: 1113073049523907923}
-  heavy: {fileID: 1113073049523907923}
+  lightSource: {fileID: 0}
+  encounterSource: {fileID: 0}
+  medium: {fileID: 0}
+  heavy: {fileID: 0}
   shake: {fileID: 0}
---- !u!114 &1113073049523907923
+--- !u!114 &7293517977478091667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -607,57 +631,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5782709559876365412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd438dd108a0f284aa931a2da434f1d3, type: 3}
+  m_Script: {fileID: 11500000, guid: b08c72ddee5e49029c04c70013d977b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ImpulseDefinition:
-    m_ImpulseChannel: 1
-    m_ImpulseShape: 3
-    m_CustomImpulseShape:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ImpulseDuration: 1
-    m_ImpulseType: 0
-    m_DissipationRate: 0.25
-    m_RawSignal: {fileID: 0}
-    m_AmplitudeGain: 1
-    m_FrequencyGain: 1
-    m_RepeatMode: 0
-    m_Randomize: 1
-    m_TimeEnvelope:
-      m_AttackShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_DecayShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_AttackTime: 0
-      m_SustainTime: 0.2
-      m_DecayTime: 0.7
-      m_ScaleWithImpact: 1
-      m_HoldForever: 0
-    m_ImpactRadius: 100
-    m_DirectionMode: 0
-    m_DissipationMode: 2
-    m_DissipationDistance: 100
-    m_PropagationSpeed: 343
-  m_DefaultVelocity: {x: 0, y: -0.3, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_IgnoreTag: 
-  m_UseImpactDirection: 0
-  m_ScaleImpactWithMass: 0
-  m_ScaleImpactWithSpeed: 0
+  root: {fileID: 4187977558644727800}
 --- !u!1 &9007574821216147728
 GameObject:
   m_ObjectHideFlags: 0

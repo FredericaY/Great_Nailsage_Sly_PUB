@@ -1,15 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Game.Player
 {
+    // PlayerLock
+    // - Temporarily disables core player modules.
+    // - Supports nested lock requests via reference count.
+    // - Freezes velocity and gravity while locked.
     [DisallowMultipleComponent]
     public class PlayerLock : MonoBehaviour
     {
+        // ------------------------------
+        // Outlets
+        // ------------------------------
         private PlayerRoot _root;
-        private int _lockCount;
 
+        // ------------------------------
+        // Runtime state
+        // ------------------------------
+        private int _lockCount;
+        private float _defaultGravity = 1f;
+
+        // ------------------------------
+        // Methods
+        // ------------------------------
         private void Awake()
         {
             _root = GetComponent<PlayerRoot>();
@@ -54,7 +67,6 @@ namespace Game.Player
             }
         }
 
-        private float _defaultGravity = 1f;
         private void Start()
         {
             if (_root != null && _root.Rb != null)

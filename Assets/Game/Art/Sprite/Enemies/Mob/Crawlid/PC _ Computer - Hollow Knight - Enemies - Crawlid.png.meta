@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 671e5a87c9a304001bcb4367811b0bab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 362
+        width: 110
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3634c7bcff274ca29b4bb6b1b7df2f6
+      internalID: 105260288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 364
+        width: 113
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ccbd470cb2d48e6a57d5ab260ef7e8
+      internalID: -707888410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 362
+        width: 111
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e4041fa32884ad795e7aafd6e9fdd6
+      internalID: 541049856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 364
+        width: 113
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ff345d7f5d440f18bc798971650451
+      internalID: -66594924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 258
+        width: 95
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5947f19a728c94788ad7303c023696b7
+      internalID: -1319166402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 258
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afc5932d84154d70ad7178b9d7a40ad
+      internalID: 214145716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 235
+        width: 120
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5128929, y: 0.486777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6664f918beea4c48971a59878759fb9
+      internalID: 1254051280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 234.75
+        width: 119.75
+        height: 117.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8419beeaab81d45188eb0848a6611672
+      internalID: -285371760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 132
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d28723f2f8e42d5919f2b7ac14d5f7
+      internalID: 1939386914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 125
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43daafbf9c95b4937aac24e5e963988c
+      internalID: 9167432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 118
+        width: 108
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e136b8aa7514cb49ebd0db294f5938
+      internalID: -1946507855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 117.75
+        width: 119.75
+        height: 117.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a7d8936d6694df59fead6cf7a504c8
+      internalID: 532144850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d5499b590994c3ea013537affc6fcc
+      internalID: 1771930672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 4
+        width: 127
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000007}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7072fa378f2884a91aa094b416edd00f
+      internalID: 2077466063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0.75
+        width: 119.75
+        height: 117.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452422d6e8be84cfd8fd7ee4e3ac5233
+      internalID: -568939971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Hollow Knight - Enemies - Crawlid_15
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0.75
+        width: 119.75
+        height: 117.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784407ada7c0c4c9995f87dc406e3d5a
+      internalID: 1298953760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_0: 105260288
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_1: -707888410
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_10: -1946507855
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_11: 532144850
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_12: 1771930672
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_13: 2077466063
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_14: -568939971
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_15: 1298953760
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_2: 541049856
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_3: -66594924
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_4: -1319166402
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_5: 214145716
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_6: 1254051280
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_7: -285371760
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_8: 1939386914
+      PC _ Computer - Hollow Knight - Enemies - Crawlid_9: 9167432
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

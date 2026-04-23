@@ -86,6 +86,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.06666667
+    functionName: EmitSfxPlayerAttackDownAir
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.26666668
     functionName: AnimEvent_AttackEnd
     data: 

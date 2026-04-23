@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Game.Combat;
-
 namespace Game.Enemies
 {
     [DisallowMultipleComponent]
@@ -24,7 +23,7 @@ namespace Game.Enemies
         private Rigidbody2D _rb;
         private Collider2D[] _colliders;
 
-        private EnemyAI _ai;
+        private Game.Enemies.Legacy.EnemyAI _ai;
         private EnemyKnockback _knockback;
 
         private bool _deadHandled;
@@ -40,7 +39,7 @@ namespace Game.Enemies
             _rb = GetComponent<Rigidbody2D>();
             _colliders = GetComponentsInChildren<Collider2D>(true);
 
-            _ai = GetComponent<EnemyAI>();
+            _ai = GetComponent<Game.Enemies.Legacy.EnemyAI>();
             _knockback = GetComponent<EnemyKnockback>();
 
             if (animator == null) animator = GetComponentInChildren<Animator>(true);

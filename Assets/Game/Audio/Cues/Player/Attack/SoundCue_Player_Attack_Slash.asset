@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa163f64fa987334ba5da3fdd408af39, type: 3}
+  m_Name: SoundCue_Player_Attack_Slash
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: f22eaa802562b274d8a55d4bb356b82e, type: 3}
+  - {fileID: 8300000, guid: 69eb94df02464cb42831178b51b9e74a, type: 3}
+  - {fileID: 8300000, guid: 86b0840956afba5498ec67b1793ca07e, type: 3}
+  - {fileID: 8300000, guid: 24ec2cca39d13cf4dbd475039ddafabe, type: 3}
+  - {fileID: 8300000, guid: 1d2f3c1197e1091418e316993b78ed2d, type: 3}
+  loop: 0
+  volumeMin: 1
+  volumeMax: 1
+  pitchMin: 1
+  pitchMax: 1
+  spatialBlend: 0
+  minInterval: 0

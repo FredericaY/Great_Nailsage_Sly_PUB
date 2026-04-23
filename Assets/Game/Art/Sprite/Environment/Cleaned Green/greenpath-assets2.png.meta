@@ -1,0 +1,3658 @@
+fileFormatVersion: 2
+guid: 7a057f83a60744c6d905995edc73bf4f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: greenpath-assets2_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1975
+        width: 256
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ff73bf1c024a9f98c385af5b54257
+      internalID: -1988545357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1921
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367e4928a08d549f3be3085738e51208
+      internalID: 1254919889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_3
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1976
+        width: 123
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f17e5e4919334a4c85a36f828d3ff17
+      internalID: -1417937593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_4
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1930
+        width: 128
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a5a2837676944ceb06424180e7f147
+      internalID: -1030109462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_5
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1895
+        width: 69
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e5ae00baaa40179bbbe6ecec53616
+      internalID: -403672908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_6
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1866
+        width: 141
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440b4b2ee46344edebe89e81b7233a1a
+      internalID: 1507102119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_7
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1974
+        width: 198
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504d00c2c093543edb13c6b14c2cb640
+      internalID: 2070413952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_9
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1949
+        width: 28
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5b1f0efba554ab2a7620c04a9825a6
+      internalID: -1485207648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_10
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1905
+        width: 82
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a32ef29d553142c086e3cc4c239ffce
+      internalID: 1666524243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_11
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1942
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785d963b8fb3f444192c73d9d6736480
+      internalID: -745006285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_12
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1959
+        width: 157
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a842c2544bba94060a92371d59998d2e
+      internalID: 477999763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_13
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1944
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18af98e6df4499f87db476cb65962b
+      internalID: 1506243041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1890
+        width: 256
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d868f0f25fde4e778b9118e37223fc6
+      internalID: 1682837344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_15
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1692
+        width: 49
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4cf72b9186c49f498a1b50f6b4b75e
+      internalID: -60028825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_16
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1922
+        width: 285
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d302bb0ae5e844d5dbeeaca7db420470
+      internalID: -1496868781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_17
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1918
+        width: 114
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1955ceaa7bba84e7b8ed7a58f0e23ad6
+      internalID: -639017126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_18
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1937
+        width: 110
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ca74fd9b52444e89aa1c1539c0d703
+      internalID: -1503027990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_19
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1628
+        width: 41
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16daa11b4bd554e62967668b4f234b5a
+      internalID: -2042544801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_20
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1839
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7660c43e8424ba99a48c8dbfd7c0dc
+      internalID: 2108935902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_24
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1846
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5701afd9cc94899a4f12c85a7e3a79
+      internalID: 181597084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1744
+        width: 189
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e669b1a168c469caf9731442b40d70
+      internalID: -242316216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1762
+        width: 115
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb001770fc24481092fb9240603fc90
+      internalID: -1089272881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1609
+        width: 58
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2a175f1b84643be8da685e065e4326
+      internalID: 644273068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1644
+        width: 56
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c2cfc00d4ff490788016d5de9f58e7
+      internalID: 910296092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_29
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1768
+        width: 145
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f363ecb1bd249b9977c6a80245c99d
+      internalID: 1580838502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_30
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1863
+        width: 281
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b3c19389a6a4f14b8baf362ce69387
+      internalID: -2068579374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_31
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1806
+        width: 18
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a828f465b9ff5485196d94dcfe76b88b
+      internalID: 979964203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_38
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1851
+        width: 250
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df749c6d1ea154ae39665320099cd38a
+      internalID: 583632735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_39
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1697
+        width: 80
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be6a077e051d40f5baf0c20a0dafae2
+      internalID: -1570638224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_40
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1725
+        width: 88
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711e067ad752f440cb98a859723eeece
+      internalID: 977890269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_41
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1760
+        width: 111
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63074e6f00fdf47608d7612aa89748a2
+      internalID: 1738171492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_42
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1733
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b698d57a50434f9c8080ff535f79af8
+      internalID: -1826917536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_43
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1684
+        width: 117
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773d3a9c5ba9449aba5e15e252e7463
+      internalID: 255493074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_44
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1779
+        width: 115
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36ab724d0c45490fb93dcd4bbb1effd
+      internalID: 677157095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_45
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1759
+        width: 203
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a85a8871394d476f8a23d30e98d31e7
+      internalID: 711219491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_46
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1735
+        width: 63
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62068265420b842f6aa9def5c8b14faf
+      internalID: 1199453464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_47
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1735
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3b269e43ed7476a8d3d061e8451f35
+      internalID: -1136045518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_49
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1685
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14943d3499c97412d8376b782fad10a8
+      internalID: 1027964231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_50
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1602
+        width: 78
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bccb461ef53415280e7b19df67da35
+      internalID: 864901494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_51
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1541
+        width: 48
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b080409039eea406d9d509e79eaa086c
+      internalID: 591320788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_52
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1474
+        width: 64
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e6f34577b044f8931c8c75856f3a3
+      internalID: -1019332294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_53
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1510
+        width: 67
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f4f0267cfda40c08089271df47ab02
+      internalID: 2086449447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_54
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1635
+        width: 131
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9dd695591cb4c3db3928f589d482b5
+      internalID: 1682737293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_55
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1657
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c40905666fef4f77b114441039e7877
+      internalID: -883321044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_56
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1578
+        width: 172
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551e4e7e827f41d4a353e6a6fdce8a4
+      internalID: -1985589193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_57
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1591
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1010e8a9d99444bb9a4490c92d53b0
+      internalID: 1399385558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_58
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1541
+        width: 141
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38961dd6db57a499cb86eb4d31e9c2d0
+      internalID: -244184187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_59
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1539
+        width: 172
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300720ec5d3a74b328b5955687e7dad7
+      internalID: -185331248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_60
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1638
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05906f6b7f30940b5b8bb8ca427bff1d
+      internalID: 1993634578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_61
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1411
+        width: 65
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16cad2b4aae54d2f84e24c6ee4ed8e2
+      internalID: -454620006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_62
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1595
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5425adb02cc0049d59dd770011e9a577
+      internalID: 1291965275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_66
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1498
+        width: 178
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b41785f85a55432eaf80161a009b638
+      internalID: 2115189732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_67
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1487
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150160be50b3a4a3eb151c3fe5cc8025
+      internalID: 1323478288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_68
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1523
+        width: 143
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e80d17bf5c534f6390aac58c09fffb4
+      internalID: -2322359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_70
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1566
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0845d25c4ccdb46e9be63854abeb2bb9
+      internalID: -786011053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_71
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1434
+        width: 43
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d91c248532477ba95402675d14643
+      internalID: 790463179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_72
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1494
+        width: 117
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f1b0f25113d41e68e169313d1e80ef
+      internalID: -642399074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_73
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1515
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b17f7ee9163462a91ebb6112dc5fdd
+      internalID: 2030937268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_75
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1509
+        width: 293
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063a1b70b599947b4acb67a7ae597c12
+      internalID: 289357301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_76
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1419
+        width: 72
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71743c4e3a33b4e5f8e2cb2bd58728df
+      internalID: 1159413094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_77
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1423
+        width: 383
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c6dadb6d3654e84a204dda36ba0763
+      internalID: -1332849146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_78
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1436
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebf904f4d8da4aeb97b038ae2eb8618
+      internalID: -1399043367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_79
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1439
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebe85ce9232c4e87b4754ac5f5ac9f9
+      internalID: 386889327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_80
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1311
+        width: 107
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bada2828c0144dcbb9dca598be79dda
+      internalID: -1365916201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_81
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1322
+        width: 75
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a05f20eb5cc94d81a65123c7081158c
+      internalID: 255148413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_82
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1327
+        width: 148
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c7bd588cfcf4ad48f08d2a0354c83d
+      internalID: -421665575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_83
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1445
+        width: 319
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df00d96903b742f48a1555e97abf2bc
+      internalID: -971017149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_84
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1424
+        width: 175
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3395fd3e06dc411c8e46b8f50ec1678
+      internalID: -1745152648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_86
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1407
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94849a84ede58461cbde8e327bc1f744
+      internalID: -2031438464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_87
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1290
+        width: 163
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c80aa1387ac7404f828f050a41ed8b8
+      internalID: -2078648666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_88
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1323
+        width: 257
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa51b562105444ac92d89b43ab44b71
+      internalID: 1843278157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_89
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1329
+        width: 204
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6f82331c0a543c995a29fae81d9d93
+      internalID: 1209120210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_90
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1285
+        width: 211
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72cc319c7a824d6f9435272b4a8b5d9
+      internalID: -1674496301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_91
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1328
+        width: 131
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1be35e4f29a423fbf701e994395dad
+      internalID: 521103076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_92
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1204
+        width: 44
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08f046cb64a1438b897d604ac83008f
+      internalID: 179018314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_93
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1199
+        width: 52
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191af2ac50b9f4de5a4ffd64f9b4a92d
+      internalID: 210502566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_94
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1362
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088d6c2f596ab4203bfd50501265b615
+      internalID: 221567387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_96
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1242
+        width: 282
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb311a30723e4a4f8b8f0f085d88d66
+      internalID: -358779239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_97
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1201
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbe00faa1c2a4aa08b5cac0713f39d1
+      internalID: -931388981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_98
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1218
+        width: 39
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d5aabe523e74f598892f204f6780cd
+      internalID: -1858458378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_99
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1023
+        width: 45
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1319f7bdd2f784a9c9f80a054d6244ae
+      internalID: -604280248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_100
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1162
+        width: 223
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb8df1b5a0e945569f149d1e7df6fbf
+      internalID: -1950666998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_101
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1200
+        width: 261
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217d498eaa99f4a9f933e72fd9084e82
+      internalID: 2012273230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_102
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1141
+        width: 96
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fa24e8e730444c690ee0a0f1c3d444
+      internalID: -1340584910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_103
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 949
+        width: 42
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415db5b1236c4479fa461b3db1eaf094
+      internalID: 1722393926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_105
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1093
+        width: 166
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bd171cd44284ed3b85f1e540fb895d
+      internalID: 1097396567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_107
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1201
+        width: 125
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ffedb8930b646e78fa0d4c99301f3b
+      internalID: -1140817721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_108
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1033
+        width: 81
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e63e955280c74c0dbe53d942009ec70
+      internalID: -1705191218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_110
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 930
+        width: 78
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a5fe1ce94c14e13a3546a141d9304c
+      internalID: -1041081688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_111
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 915
+        width: 95
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b3cc18749744b52b183bcd6b948362
+      internalID: -1177113980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_112
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1155
+        width: 231
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d27f0c778284c07bc9bd0d10f2f3e5
+      internalID: -579789892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_113
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1093
+        width: 157
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d51ea9d45764b69891abedfd0fb167
+      internalID: 1840902066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_114
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 884
+        width: 47
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea73dad3060d74edda564fae969fb2f1
+      internalID: -195860578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_115
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1021
+        width: 118
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cc6505c4ed146fea0225d12f323de1
+      internalID: 351908139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_116
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1027
+        width: 45
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db023fb1153f4cb8b5ff0a51cc79e24
+      internalID: 2075582041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_117
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 930
+        width: 76
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddf22ddef9b141b19e8fbd7984c3e56
+      internalID: -912007485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_118
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 895
+        width: 58
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f8ffbe9010944558f9aa8426b55300
+      internalID: -402582160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_119
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 922
+        width: 74
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e048d504886a49808942d65870df1d3
+      internalID: -1646050218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_121
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 924
+        width: 91
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8f064dcb0ff4f898e6cdfc53e44925
+      internalID: -1437755565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_123
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 967
+        width: 155
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323e0f9e41c5e4b0d934f373ee5f4c3c
+      internalID: 147972812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_124
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 870
+        width: 85
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c72b9cd5ff64cd7b958d8ced0eb2ba
+      internalID: -2077640641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_125
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 786
+        width: 63
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093abef0d43894828bc25a517d8de689
+      internalID: 1858324762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_128
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 799
+        width: 60
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd806322044a4c9da5c68c1a991970b
+      internalID: -219633462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_129
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 742
+        width: 110
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40178906ea9b14548abc1b181c319e4f
+      internalID: 1810153459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_130
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 756
+        width: 57
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619479b9594d44073bf1c1482db57da7
+      internalID: -1310256674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_131
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 760
+        width: 55
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342fada3480ea4883b37fc072e81c594
+      internalID: -1244575418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_132
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 959
+        width: 121
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1467e46f2d54f425fa82dc742e4c0fba
+      internalID: 2088472174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_136
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 820
+        width: 94
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e117e740b64284e8a9a0e9c7f0d0ecbe
+      internalID: 1735178360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_137
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 835
+        width: 136
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b27ccd74a24457796b2aebc99ab8e6
+      internalID: 1762383370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_138
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 724
+        width: 157
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed4e6a90725243f58a6c65ea40de283
+      internalID: -1255464384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_139
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 835
+        width: 128
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b817b374b8c9946419958c87ffbcbb95
+      internalID: -1828781794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_140
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 830
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285c4035a7ef44b1692890896b538ac8
+      internalID: 125887432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_141
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 639
+        width: 83
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f146f022ebb5d4e86b7d98b29e6a01ae
+      internalID: -1930160742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_142
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 605
+        width: 74
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91719d9ca53e423fb7f883b36d678a1
+      internalID: -1817652949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_143
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 717
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4972645a43a84e7eabc8f0113c27572
+      internalID: -30034879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_144
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 579
+        width: 161
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7910f051b6f9743778adc667b537438f
+      internalID: 1001947840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_145
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 536
+        width: 95
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68efd5c618aa9415988e886bc8ad47e0
+      internalID: -881169906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_146
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 639
+        width: 67
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fba82d8884a34147a3e819bf96dd1b3
+      internalID: -168266682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_147
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 503
+        width: 99
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944cec6157e6b4fdbb335a48c0ff60a8
+      internalID: 1881124147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_148
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 619
+        width: 75
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b135d24f123444c1ebca6075cd3f35a7
+      internalID: 317171620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_149
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 607
+        width: 144
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7723dd812732f48ab80475b400bc83e7
+      internalID: -1134511146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_150
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 489
+        width: 79
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6059a62cb7b5f422ebaad3eda9e7840b
+      internalID: 2030563417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_151
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 464
+        width: 78
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc1c2e3b2c2b4c529a426b2eb143bfb
+      internalID: -1187454992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_152
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 423
+        width: 76
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cc49958321642fbaeb68c1c3ff3f4e
+      internalID: 1041070810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_153
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 636
+        width: 92
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df129c211fde24f9ea5e653576fa7010
+      internalID: 1057280137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_154
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 8
+        width: 35
+        height: 725
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e69877508674d08914a4c71c720e90
+      internalID: 848975018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_156
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 496
+        width: 93
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11be7cde79fc24d7a9337b9e4a86b97c
+      internalID: -912532900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_157
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 505
+        width: 55
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e90d8bb405064911a8297fb6d0be998
+      internalID: -2125395178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_158
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 368
+        width: 82
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c7a86d2d2c6475f879270fdd1328d8
+      internalID: -787859837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_159
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 409
+        width: 79
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c07043b3c49457d91b824e5586fef0
+      internalID: 679044209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_160
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 495
+        width: 194
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b76758eeb7441a9967a15b4f1e421a
+      internalID: -1493853975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_161
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 316
+        width: 77
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07bcb171437441e5805595c764bdaf5
+      internalID: 1299600116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_162
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 515
+        width: 173
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2289e4057479b4013b5cdd0a98c7a13d
+      internalID: 1659140203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_164
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 381
+        width: 178
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c1efb1140e24e50a1f1d28f2586c78
+      internalID: -1823933644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_165
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 371
+        width: 268
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b057ebafecb8b49a583b54f3a35e837c
+      internalID: 1032833042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_166
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 381
+        width: 258
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cd3f8313905460db081215e188ee36
+      internalID: 941424872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_167
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 331
+        width: 155
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df70c376adb14680938b08ebe8759fb
+      internalID: -30100477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_168
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 274
+        width: 202
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0328438358eb144919d6ca446f9e3616
+      internalID: 55942422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_169
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 289
+        width: 256
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f27cdf2b55c748af90fd0d2134bb4bf
+      internalID: -1933640179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_170
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 287
+        width: 326
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514a5884a38994c9489adca068c7a3b0
+      internalID: -921585239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_171
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 263
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb60718c637846d5a0fbf874b2463d9
+      internalID: -2041667263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_172
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 347
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866fe7307efbe42ffae822c6126fd789
+      internalID: -727572611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_173
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 219
+        width: 147
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92495613c37574b29819bee77c364a98
+      internalID: 864465707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_175
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 0
+        width: 86
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a489e0651a7dc45d1b7ed12c23940a6a
+      internalID: 585608588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_177
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 77
+        width: 86
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f2b282470384f28869fb8fce5cf849
+      internalID: -1767502769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_178
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 4
+        width: 72
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37a5c0e1fe604d418bba17a949f41f6
+      internalID: -1267311961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_179
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 252
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a64c944487e846eaae65729641423ed
+      internalID: 2061692340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_180
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 230
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0686ad66e12eb45b3b94bfa2bb12dc7c
+      internalID: -1531834262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_181
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 230
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1789661b72e6b48edb66a722988fa6f1
+      internalID: -1263023830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_182
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 7
+        width: 89
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600e460b85c89406f8720499779462af
+      internalID: 1038007722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_183
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 138
+        width: 161
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42466e549d69e401f8b27e60bf8bf7bd
+      internalID: 842798997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_184
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 194
+        width: 323
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bacaacf08646477ca29475c2dd4ebc4
+      internalID: 852049854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_185
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 5
+        width: 123
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022023c845615483dbb394a5c3d6b039
+      internalID: 2031048121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_186
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 4
+        width: 154
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f463c098d5d134068ac6880484a0774b
+      internalID: -282605474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_187
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 82
+        width: 222
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49db7b526ddfa425f90ff01b27229cca
+      internalID: 1772999875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_188
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 128
+        width: 171
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1b2097aa8314c00b226c40f1d52cbc
+      internalID: -805055532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_189
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 4
+        width: 318
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d343a3c025c4a4992a2c1f8fd518e734
+      internalID: -402427308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_190
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 4
+        width: 322
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f8d2d37cf1e4242b04d744a46ae2a2
+      internalID: -29436978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenpath-assets2_191
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 7
+        width: 179
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127fdeb32c08f43098df3e3a42483d88
+      internalID: -1840191994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      greenpath-assets2_0: -1988545357
+      greenpath-assets2_1: 347922185
+      greenpath-assets2_10: 1666524243
+      greenpath-assets2_100: -1950666998
+      greenpath-assets2_101: 2012273230
+      greenpath-assets2_102: -1340584910
+      greenpath-assets2_103: 1722393926
+      greenpath-assets2_104: 1932916425
+      greenpath-assets2_105: 1097396567
+      greenpath-assets2_106: -2052302627
+      greenpath-assets2_107: -1140817721
+      greenpath-assets2_108: -1705191218
+      greenpath-assets2_109: 1482023394
+      greenpath-assets2_11: -745006285
+      greenpath-assets2_110: -1041081688
+      greenpath-assets2_111: -1177113980
+      greenpath-assets2_112: -579789892
+      greenpath-assets2_113: 1840902066
+      greenpath-assets2_114: -195860578
+      greenpath-assets2_115: 351908139
+      greenpath-assets2_116: 2075582041
+      greenpath-assets2_117: -912007485
+      greenpath-assets2_118: -402582160
+      greenpath-assets2_119: -1646050218
+      greenpath-assets2_12: 477999763
+      greenpath-assets2_120: 2142297150
+      greenpath-assets2_121: -1437755565
+      greenpath-assets2_122: -2141151972
+      greenpath-assets2_123: 147972812
+      greenpath-assets2_124: -2077640641
+      greenpath-assets2_125: 1858324762
+      greenpath-assets2_126: -29654611
+      greenpath-assets2_127: 1990988702
+      greenpath-assets2_128: -219633462
+      greenpath-assets2_129: 1810153459
+      greenpath-assets2_13: 1506243041
+      greenpath-assets2_130: -1310256674
+      greenpath-assets2_131: -1244575418
+      greenpath-assets2_132: 2088472174
+      greenpath-assets2_133: -1475076766
+      greenpath-assets2_134: -1977400732
+      greenpath-assets2_135: -1707548260
+      greenpath-assets2_136: 1735178360
+      greenpath-assets2_137: 1762383370
+      greenpath-assets2_138: -1255464384
+      greenpath-assets2_139: -1828781794
+      greenpath-assets2_14: 1682837344
+      greenpath-assets2_140: 125887432
+      greenpath-assets2_141: -1930160742
+      greenpath-assets2_142: -1817652949
+      greenpath-assets2_143: -30034879
+      greenpath-assets2_144: 1001947840
+      greenpath-assets2_145: -881169906
+      greenpath-assets2_146: -168266682
+      greenpath-assets2_147: 1881124147
+      greenpath-assets2_148: 317171620
+      greenpath-assets2_149: -1134511146
+      greenpath-assets2_15: -60028825
+      greenpath-assets2_150: 2030563417
+      greenpath-assets2_151: -1187454992
+      greenpath-assets2_152: 1041070810
+      greenpath-assets2_153: 1057280137
+      greenpath-assets2_154: 848975018
+      greenpath-assets2_155: 814154255
+      greenpath-assets2_156: -912532900
+      greenpath-assets2_157: -2125395178
+      greenpath-assets2_158: -787859837
+      greenpath-assets2_159: 679044209
+      greenpath-assets2_16: -1496868781
+      greenpath-assets2_160: -1493853975
+      greenpath-assets2_161: 1299600116
+      greenpath-assets2_162: 1659140203
+      greenpath-assets2_163: -1831956601
+      greenpath-assets2_164: -1823933644
+      greenpath-assets2_165: 1032833042
+      greenpath-assets2_166: 941424872
+      greenpath-assets2_167: -30100477
+      greenpath-assets2_168: 55942422
+      greenpath-assets2_169: -1933640179
+      greenpath-assets2_17: -639017126
+      greenpath-assets2_170: -921585239
+      greenpath-assets2_171: -2041667263
+      greenpath-assets2_172: -727572611
+      greenpath-assets2_173: 864465707
+      greenpath-assets2_174: 835668471
+      greenpath-assets2_175: 585608588
+      greenpath-assets2_176: -111049520
+      greenpath-assets2_177: -1767502769
+      greenpath-assets2_178: -1267311961
+      greenpath-assets2_179: 2061692340
+      greenpath-assets2_18: -1503027990
+      greenpath-assets2_180: -1531834262
+      greenpath-assets2_181: -1263023830
+      greenpath-assets2_182: 1038007722
+      greenpath-assets2_183: 842798997
+      greenpath-assets2_184: 852049854
+      greenpath-assets2_185: 2031048121
+      greenpath-assets2_186: -282605474
+      greenpath-assets2_187: 1772999875
+      greenpath-assets2_188: -805055532
+      greenpath-assets2_189: -402427308
+      greenpath-assets2_19: -2042544801
+      greenpath-assets2_190: -29436978
+      greenpath-assets2_191: -1840191994
+      greenpath-assets2_2: 1254919889
+      greenpath-assets2_20: 2108935902
+      greenpath-assets2_21: -2090010754
+      greenpath-assets2_22: 2114484962
+      greenpath-assets2_23: 546538731
+      greenpath-assets2_24: 181597084
+      greenpath-assets2_25: -242316216
+      greenpath-assets2_26: -1089272881
+      greenpath-assets2_27: 644273068
+      greenpath-assets2_28: 910296092
+      greenpath-assets2_29: 1580838502
+      greenpath-assets2_3: -1417937593
+      greenpath-assets2_30: -2068579374
+      greenpath-assets2_31: 979964203
+      greenpath-assets2_32: 958563504
+      greenpath-assets2_33: 1602814728
+      greenpath-assets2_34: -370433222
+      greenpath-assets2_35: -1099691530
+      greenpath-assets2_36: 1854944871
+      greenpath-assets2_37: 1903745654
+      greenpath-assets2_38: 583632735
+      greenpath-assets2_39: -1570638224
+      greenpath-assets2_4: -1030109462
+      greenpath-assets2_40: 977890269
+      greenpath-assets2_41: 1738171492
+      greenpath-assets2_42: -1826917536
+      greenpath-assets2_43: 255493074
+      greenpath-assets2_44: 677157095
+      greenpath-assets2_45: 711219491
+      greenpath-assets2_46: 1199453464
+      greenpath-assets2_47: -1136045518
+      greenpath-assets2_48: -1160658528
+      greenpath-assets2_49: 1027964231
+      greenpath-assets2_5: -403672908
+      greenpath-assets2_50: 864901494
+      greenpath-assets2_51: 591320788
+      greenpath-assets2_52: -1019332294
+      greenpath-assets2_53: 2086449447
+      greenpath-assets2_54: 1682737293
+      greenpath-assets2_55: -883321044
+      greenpath-assets2_56: -1985589193
+      greenpath-assets2_57: 1399385558
+      greenpath-assets2_58: -244184187
+      greenpath-assets2_59: -185331248
+      greenpath-assets2_6: 1507102119
+      greenpath-assets2_60: 1993634578
+      greenpath-assets2_61: -454620006
+      greenpath-assets2_62: 1291965275
+      greenpath-assets2_63: -790229062
+      greenpath-assets2_64: 892270534
+      greenpath-assets2_65: 455039387
+      greenpath-assets2_66: 2115189732
+      greenpath-assets2_67: 1323478288
+      greenpath-assets2_68: -2322359
+      greenpath-assets2_69: -942673089
+      greenpath-assets2_7: 2070413952
+      greenpath-assets2_70: -786011053
+      greenpath-assets2_71: 790463179
+      greenpath-assets2_72: -642399074
+      greenpath-assets2_73: 2030937268
+      greenpath-assets2_74: -907747501
+      greenpath-assets2_75: 289357301
+      greenpath-assets2_76: 1159413094
+      greenpath-assets2_77: -1332849146
+      greenpath-assets2_78: -1399043367
+      greenpath-assets2_79: 386889327
+      greenpath-assets2_8: -596005277
+      greenpath-assets2_80: -1365916201
+      greenpath-assets2_81: 255148413
+      greenpath-assets2_82: -421665575
+      greenpath-assets2_83: -971017149
+      greenpath-assets2_84: -1745152648
+      greenpath-assets2_85: 1270476602
+      greenpath-assets2_86: -2031438464
+      greenpath-assets2_87: -2078648666
+      greenpath-assets2_88: 1843278157
+      greenpath-assets2_89: 1209120210
+      greenpath-assets2_9: -1485207648
+      greenpath-assets2_90: -1674496301
+      greenpath-assets2_91: 521103076
+      greenpath-assets2_92: 179018314
+      greenpath-assets2_93: 210502566
+      greenpath-assets2_94: 221567387
+      greenpath-assets2_95: -881603938
+      greenpath-assets2_96: -358779239
+      greenpath-assets2_97: -931388981
+      greenpath-assets2_98: -1858458378
+      greenpath-assets2_99: -604280248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Game.Combat;
+using System;
 
 namespace Game.Enemies
 {
@@ -14,6 +15,8 @@ namespace Game.Enemies
     [RequireComponent(typeof(Collider2D))]
     public class EnemyContactDamage : MonoBehaviour
     {
+        public event Action<Collider2D> DamageApplied;
+
         [Header("Config")]
         [SerializeField] private int damage = 10;
         [SerializeField] private float hitCooldown = 0.35f;
@@ -62,7 +65,10 @@ namespace Game.Enemies
             };
 
             if (damageable.TakeDamage(info))
+            {
                 _nextTime = Time.time + hitCooldown;
+                DamageApplied?.Invoke(other);
+            }
         }
 
         // 给外部统一调参用

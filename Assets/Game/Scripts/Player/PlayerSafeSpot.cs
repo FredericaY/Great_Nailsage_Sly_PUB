@@ -2,49 +2,47 @@ using UnityEngine;
 
 namespace Game.Player
 {
-    // ─────────────────────────────
     // PlayerSafeSpot
     // - Records the last safe position while grounded and not in hazard contact.
     // - Used by hazards/respawn to teleport player back to a safe location.
-    // ─────────────────────────────
     [DisallowMultipleComponent]
     public class PlayerSafeSpot : MonoBehaviour
     {
-        // ─────────────────────────────
+        // ------------------------------
         // Record settings
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Record")]
         [SerializeField] private float recordInterval = 0.10f;   // How often to record safe spot
         [SerializeField] private float minGroundedTime = 0.05f;  // Debounce: grounded must last this long
 
-        // ─────────────────────────────
+        // ------------------------------
         // Debug
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Debug")]
         [SerializeField] private bool drawGizmo = true;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Public state
-        // ─────────────────────────────
+        // ------------------------------
         public Vector3 LastSafePosition { get; private set; }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Outlets
-        // ─────────────────────────────
+        // ------------------------------
         private PlayerRoot _root;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Runtime state
-        // ─────────────────────────────
+        // ------------------------------
         private float _nextRecordTime;
         private float _groundedTimer;
 
         private int _hazardContactCount;
         private float _suspendUntil;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Methods
-        // ─────────────────────────────
+        // ------------------------------
         private void Reset()
         {
             ClampSerializedValues();
@@ -92,9 +90,9 @@ namespace Game.Player
             LastSafePosition = transform.position;
         }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Public API
-        // ─────────────────────────────
+        // ------------------------------
         public void TeleportToSafe()
         {
             transform.position = LastSafePosition;
@@ -121,9 +119,9 @@ namespace Game.Player
             _suspendUntil = Mathf.Max(_suspendUntil, Time.time + Mathf.Max(0f, seconds));
         }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Gizmos
-        // ─────────────────────────────
+        // ------------------------------
         private void OnDrawGizmosSelected()
         {
             if (!drawGizmo) return;

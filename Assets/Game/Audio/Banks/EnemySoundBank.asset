@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8b59863185ed84cb3f61b84567c0b7, type: 3}
+  m_Name: EnemySoundBank
+  m_EditorClassIdentifier: 
+  entries:
+  - key: enemy.aspid.fly.loop
+    cue: {fileID: 11400000, guid: c492e17770c4f044ca1f41c08b3bb6cb, type: 2}
+  - key: enemy.aspid.attack
+    cue: {fileID: 11400000, guid: 7fc8d9c5c0d95414f9f066dbdc3413a7, type: 2}
+  - key: enemy.fk.attack
+    cue: {fileID: 11400000, guid: cb928ebc33c53c44da92da464810dff3, type: 2}
+  - key: enemy.fk.strike_ground
+    cue: {fileID: 11400000, guid: f60969680a81eec439dffc4d3c42bf1b, type: 2}
+  - key: enemy.fk.jump
+    cue: {fileID: 11400000, guid: f25864048f034584f97bf78a7629b266, type: 2}
+  - key: enemy.fk.land
+    cue: {fileID: 11400000, guid: 509c96a4656154a479c70befa27db743, type: 2}
+  - key: enemy.hurt
+    cue: {fileID: 11400000, guid: b783975c20981a94e9f84f699f8e94b0, type: 2}

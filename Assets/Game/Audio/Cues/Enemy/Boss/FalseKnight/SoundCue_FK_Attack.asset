@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa163f64fa987334ba5da3fdd408af39, type: 3}
+  m_Name: SoundCue_FK_Attack
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: bc2ca9fbb33375740a4c618875428876, type: 3}
+  - {fileID: 8300000, guid: ca9f170db803d5240ae5de3f1f8013d8, type: 3}
+  - {fileID: 8300000, guid: 18988d9972a4f2e48b0737bdbfac2586, type: 3}
+  - {fileID: 8300000, guid: 3eb3b7490b2171e4997eb3d521bc76a3, type: 3}
+  - {fileID: 8300000, guid: ce2f3caaa7194f1479423a00db5e198c, type: 3}
+  loop: 0
+  volumeMin: 1
+  volumeMax: 1
+  pitchMin: 1
+  pitchMax: 1
+  spatialBlend: 0
+  minInterval: 0

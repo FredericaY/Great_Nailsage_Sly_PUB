@@ -2,7 +2,6 @@ using UnityEngine;
 
 namespace Game.Player
 {
-    // ─────────────────────────────
     // PlayerCombat
     // - Owns attack gameplay logic (combo / buffer / hold-repeat).
     // - Sends ONE-shot animation requests to graphics layer (AnimatorDriver).
@@ -14,35 +13,34 @@ namespace Game.Player
     //   3) Cache a PendingHitbox describing what should be spawned.
     //   4) Animation Event calls AnimEvent_SpawnAttackHitbox() at hit frame.
     //   5) Animation Event calls AnimEvent_AttackEnd() when the move ends.
-    // ─────────────────────────────
     [DisallowMultipleComponent]
     public class PlayerCombat : MonoBehaviour
     {
-        // ─────────────────────────────
+        // ------------------------------
         // Config: Hitbox Prefabs
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Hitbox Prefabs")]
         [SerializeField] private AttackHitbox slashPrefab;
         [SerializeField] private AttackHitbox upperPrefab;
         [SerializeField] private AttackHitbox downAirPrefab;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Config: Spawn Offsets (local space)
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Spawn Offsets (Local)")]
         [SerializeField] private Vector2 slashOffset = Vector2.zero;
         [SerializeField] private Vector2 upperOffset = Vector2.zero;
         [SerializeField] private Vector2 downAirOffset = Vector2.zero;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Config: Damage
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Damage")]
         [SerializeField] private int baseDamage = 10;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Config: Combo & Buffer
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Combo")]
         [Tooltip("Time window AFTER last attack ends to continue combo.")]
         [SerializeField] private float comboWindowAfterEnd = 0.35f;
@@ -51,28 +49,28 @@ namespace Game.Player
         [Tooltip("If attack is pressed shortly before attack end, queue next attack.")]
         [SerializeField] private float inputBufferTime = 0.18f;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Config: Hold Repeat
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Hold Repeat")]
         [SerializeField] private float holdToRepeatDelay = 0.18f;
         [SerializeField] private float repeatInterval = 0.10f;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Config: Safety
-        // ─────────────────────────────
+        // ------------------------------
         [Header("Safety")]
         [Tooltip("If blocked (still attacking), retry a bit later to avoid spamming each frame.")]
         [SerializeField] private float minRetryIntervalWhenBlocked = 0.02f;
+        [Tooltip("Maximum time an attack is allowed to stay active before auto-clearing. Protects against lost AnimEvent_AttackEnd (e.g. when the attack clip is interrupted by a Hurt transition).")]
+        [SerializeField] private float attackSafetyTimeout = 1.25f;
 
-        // ─────────────────────────────
         // Public types
-        // ─────────────────────────────
         public enum AttackAnim { Slash, Upper, DownAir }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Pending hitbox spawn (driven by Animation Event)
-        // ─────────────────────────────
+        // ------------------------------
         private struct PendingHitbox
         {
             public AttackHitbox prefab;
@@ -82,36 +80,45 @@ namespace Game.Player
             public bool valid;
         }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Outlets
-        // ─────────────────────────────
+        // ------------------------------
         private PlayerRoot _root;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Runtime: combo / gates
-        // ─────────────────────────────
+        // ------------------------------
         private int _comboIndex;              // 0: slash, 1: upper, 2: slash...
         private bool _isAttacking;
+        private float _attackStartedAt;
         private float _lastAttackEndTime;
 
+        // ------------------------------
         // Runtime: input buffer
+        // ------------------------------
         private float _bufferedAttackUntil;
         private bool _attackEndedThisFrame;
 
+        // ------------------------------
         // Runtime: animation request handshake (Combat -> AnimatorDriver)
+        // ------------------------------
         private bool _hasAttackRequest;
         private AttackAnim _requestedAnim;
 
+        // ------------------------------
         // Runtime: hold-repeat
+        // ------------------------------
         private bool _holdActive;
         private float _nextRepeatTime;
 
+        // ------------------------------
         // Runtime: pending hitbox for anim event
+        // ------------------------------
         private PendingHitbox _pending;
 
-        // ─────────────────────────────
+        // ------------------------------
         // Unity
-        // ─────────────────────────────
+        // ------------------------------
         private void Reset() => ClampSerializedValues();
 
         private void Awake()
@@ -134,11 +141,12 @@ namespace Game.Player
             holdToRepeatDelay = Mathf.Max(0f, holdToRepeatDelay);
             repeatInterval = Mathf.Max(0.01f, repeatInterval);
             minRetryIntervalWhenBlocked = Mathf.Max(0.01f, minRetryIntervalWhenBlocked);
+            attackSafetyTimeout = Mathf.Max(0.25f, attackSafetyTimeout);
         }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Animation Events (forwarded from Graphics)
-        // ─────────────────────────────
+        // ------------------------------
 
         /// <summary>
         /// Called at the exact hit frame (per attack clip) to spawn the cached hitbox.
@@ -168,14 +176,16 @@ namespace Game.Player
             _attackEndedThisFrame = true;
         }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Input hooks (called by PlayerInput/controller)
-        // ─────────────────────────────
+        // ------------------------------
 
         public void OnAttackPressed()
         {
+            float cooldownMultiplier = GetAttackCooldownMultiplier();
+
             // Always refresh buffer window
-            _bufferedAttackUntil = Time.time + inputBufferTime;
+            _bufferedAttackUntil = Time.time + inputBufferTime * cooldownMultiplier;
 
             // Tap: try immediately if allowed
             if (!_isAttacking)
@@ -183,7 +193,7 @@ namespace Game.Player
 
             // Hold tracking
             _holdActive = true;
-            _nextRepeatTime = Time.time + holdToRepeatDelay;
+            _nextRepeatTime = Time.time + holdToRepeatDelay * cooldownMultiplier;
         }
 
         public void OnAttackHeld(float dt)
@@ -192,9 +202,9 @@ namespace Game.Player
             if (Time.time < _nextRepeatTime) return;
 
             if (TryAttack())
-                _nextRepeatTime = Time.time + repeatInterval;
+                _nextRepeatTime = Time.time + repeatInterval * GetAttackCooldownMultiplier();
             else
-                _nextRepeatTime = Time.time + minRetryIntervalWhenBlocked;
+                _nextRepeatTime = Time.time + minRetryIntervalWhenBlocked * GetAttackCooldownMultiplier();
         }
 
         public void OnAttackReleased()
@@ -204,6 +214,17 @@ namespace Game.Player
 
         private void Update()
         {
+            // Safety watchdog: if an attack has been "in progress" far longer than any clip
+            // could possibly last, the AnimEvent_AttackEnd was lost (most commonly because a
+            // Hurt transition stole the attack clip). Auto-clear so the player isn't stuck.
+            if (_isAttacking && Time.time - _attackStartedAt > attackSafetyTimeout)
+            {
+                _isAttacking = false;
+                _lastAttackEndTime = Time.time;
+                _attackEndedThisFrame = true;
+                _pending.valid = false;
+            }
+
             // Handle buffered input right after attack ends (next frame safe)
             if (!_attackEndedThisFrame) return;
             _attackEndedThisFrame = false;
@@ -215,9 +236,7 @@ namespace Game.Player
             }
         }
 
-        // ─────────────────────────────
         // Animation request API (Combat -> AnimatorDriver)
-        // ─────────────────────────────
         public bool TryConsumeAttackRequest(out AttackAnim anim)
         {
             if (!_hasAttackRequest)
@@ -231,13 +250,14 @@ namespace Game.Player
             return true;
         }
 
-        // ─────────────────────────────
+        // ------------------------------
         // Core attack attempt
-        // ─────────────────────────────
+        // ------------------------------
         private bool TryAttack()
         {
             if (_isAttacking) return false;
             _isAttacking = true;
+            _attackStartedAt = Time.time;
 
             // Reset combo if we waited too long after last end
             if (_lastAttackEndTime > 0f && Time.time - _lastAttackEndTime > comboWindowAfterEnd)
@@ -292,7 +312,7 @@ namespace Game.Player
                 prefab = prefab,
                 localOffset = localOffset,
                 dir = dir,
-                damage = baseDamage,
+                damage = GetResolvedAttackDamage(),
                 valid = true
             };
         }
@@ -314,6 +334,26 @@ namespace Game.Player
             _hasAttackRequest = false;
             _comboIndex = 0;
             _pending.valid = false;
+            _bufferedAttackUntil = 0f;
+            _attackEndedThisFrame = false;
+            _lastAttackEndTime = Time.time;
+        }
+
+        private int GetResolvedAttackDamage()
+        {
+            float multiplier = 1f;
+            if (_root != null && _root.CharmRuntime != null)
+                multiplier = _root.CharmRuntime.GetAttackDamageMultiplier();
+
+            return Mathf.Max(0, Mathf.RoundToInt(baseDamage * multiplier));
+        }
+
+        private float GetAttackCooldownMultiplier()
+        {
+            if (_root == null || _root.CharmRuntime == null)
+                return 1f;
+
+            return _root.CharmRuntime.GetAttackCooldownMultiplier();
         }
     }
 }

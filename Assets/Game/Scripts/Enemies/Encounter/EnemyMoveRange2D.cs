@@ -27,6 +27,26 @@ public class EnemyMoveRange2D : MonoBehaviour
         }
     }
 
+    public float MinY
+    {
+        get
+        {
+            EnsureSetup();
+            if (rangeTrigger == null) return transform.position.y;
+            return rangeTrigger.bounds.min.y;
+        }
+    }
+
+    public float MaxY
+    {
+        get
+        {
+            EnsureSetup();
+            if (rangeTrigger == null) return transform.position.y;
+            return rangeTrigger.bounds.max.y;
+        }
+    }
+
     public float ClampX(float x, float edgePadding = 0f)
     {
         float min = MinX + Mathf.Max(0f, edgePadding);
@@ -44,6 +64,25 @@ public class EnemyMoveRange2D : MonoBehaviour
         float min = MinX + Mathf.Max(0f, edgePadding);
         float max = MaxX - Mathf.Max(0f, edgePadding);
         return x >= min && x <= max;
+    }
+
+    public float ClampY(float y, float edgePadding = 0f)
+    {
+        float min = MinY + Mathf.Max(0f, edgePadding);
+        float max = MaxY - Mathf.Max(0f, edgePadding);
+        if (min > max)
+        {
+            float center = (MinY + MaxY) * 0.5f;
+            return center;
+        }
+        return Mathf.Clamp(y, min, max);
+    }
+
+    public bool ContainsY(float y, float edgePadding = 0f)
+    {
+        float min = MinY + Mathf.Max(0f, edgePadding);
+        float max = MaxY - Mathf.Max(0f, edgePadding);
+        return y >= min && y <= max;
     }
 
     /// <summary>
@@ -77,14 +116,10 @@ public class EnemyMoveRange2D : MonoBehaviour
 #if UNITY_EDITOR
     private void OnDrawGizmosSelected()
     {
-        float min = MinX;
-        float max = MaxX;
-        float y = rangeTrigger != null ? rangeTrigger.bounds.center.y : transform.position.y;
-
         Gizmos.color = new Color(0.2f, 0.9f, 0.3f, 1f);
-        Gizmos.DrawLine(new Vector3(min, y, 0f), new Vector3(max, y, 0f));
-        Gizmos.DrawWireSphere(new Vector3(min, y, 0f), 0.15f);
-        Gizmos.DrawWireSphere(new Vector3(max, y, 0f), 0.15f);
+        Vector3 center = new Vector3((MinX + MaxX) * 0.5f, (MinY + MaxY) * 0.5f, 0f);
+        Vector3 size = new Vector3(Mathf.Abs(MaxX - MinX), Mathf.Abs(MaxY - MinY), 0f);
+        Gizmos.DrawWireCube(center, size);
     }
 #endif
 }

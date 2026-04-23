@@ -98,6 +98,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: AnimEvent_SfxEnemyFalseKnightAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.083333336
     functionName: AnimEvent_ShakeMedium
     data: 
@@ -107,6 +114,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.33333334
     functionName: AnimEvent_SpawnWaveProjectile
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: AnimEvent_SfxEnemyFalseKnightStrikeGround
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

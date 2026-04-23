@@ -53,8 +53,12 @@ public class EnemyBlackboard : MonoBehaviour
 
         facingRight = shouldFaceRight;
 
+        EnemyRoot root = GetComponent<EnemyRoot>();
         var s = transform.localScale;
-        s.x = Mathf.Abs(s.x) * (facingRight ? 1f : -1f);
+        if (root != null)
+            s.x = Mathf.Abs(s.x) * root.GetFacingScaleSign(facingRight);
+        else
+            s.x = Mathf.Abs(s.x) * (facingRight ? 1f : -1f);
         transform.localScale = s;
     }
 
